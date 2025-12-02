@@ -1,0 +1,60 @@
+/* تصميم الحاوية الرئيسية */
+.logout-container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logout-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.logout-container p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.clinic-info h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 30px;
+}
+
+.clinic-info p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* تنسيق الصورة */
+.clinic-image img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+/* تنسيق زر تسجيل الخروج */
+.logout-buttons .btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.logout-buttons .btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.logout-buttons .btn-danger:hover {
+  background-color: #c82333;
+}

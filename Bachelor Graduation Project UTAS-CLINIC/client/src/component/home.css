@@ -1,0 +1,227 @@
+/* قسم الهيرو */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero-section .container {
+  z-index: 2;
+}
+
+.hero-content-box {
+  background-color: rgba(20, 20, 20, 0.7); /* مربع أغمق شفاف */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #0a92ec;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #ddd;
+}
+
+.h-home {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.p-home {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* قسم الخدمات */
+.clinic-timeline-section {
+  position: relative;
+  padding: 60px 0;
+  background: linear-gradient(
+    -80deg,
+    #c3e1fff1,
+    #a3b7bdf5,
+    #bfddd6e2,
+    #dfcde0f3
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 15s ease infinite;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.clinic-timeline-wrapper {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.clinic-vertical-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 9px; /* أثخن */
+  height: 85%;
+  top: 40px;
+  background: linear-gradient(to bottom, #140de2, #527df2, rgb(168, 151, 22));
+  z-index: 0;
+  border-radius: 3px;
+}
+
+/* مربعات الخدمات */
+.clinic-card-container {
+  position: relative;
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.clinic-left {
+  margin-left: calc(50% - 48%);
+  margin-right: auto;
+}
+
+.clinic-right {
+  margin-right: calc(50% - 48%);
+  margin-left: auto;
+}
+
+.clinic-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.clinic-card-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.clinic-card-content p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.clinic-left .clinic-card-content,
+.clinic-right .clinic-card-content {
+  text-align: left;
+}
+
+/* قسم آراء العملاء */
+.services-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.clinic-timeline-wrapper {
+  position: relative;
+  width: 80%;
+  max-width: 1140px;
+  padding: 40px;
+  margin: auto;
+}
+
+.clinic-section-title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e0d73;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.clinic-section-title h2::after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(to right, #007bff, #6f42c1);
+  bottom: 0;
+  left: 20%;
+  border-radius: 2px;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  color: #6c757d;
+  max-width: 600px;
+  margin: 15px auto 0;
+  line-height: 2.6;
+}
+.see-sevice {
+  width: 15%;
+  color: rgb(255, 255, 249);
+  background-color: #1205a1;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  animation: pulse-scale 0.7s infinite ease-in-out;
+  transition: transform 0.3s ease;
+}
+
+@keyframes pulse-scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

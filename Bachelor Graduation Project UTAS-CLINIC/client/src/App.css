@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* login */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff00;
+  padding: 20px;
+}
+
+.login-wrapper {
+  width: 80%;
+  max-width: 1000px;
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.554);
+}
+
+/* استجابة الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .login-wrapper {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .left-section {
+    border-radius: 12px 12px 0 0;
+  }
+
+  .right-section {
+    border-radius: 0 0 12px 12px;
+  }
+
+  .stethoscope-between {
+    display: none;
+  }
+
+  .logo-img,
+  .stethoscope-img {
+    width: 100px;
+  }
+
+  .login-btn {
+    width: 100%;
+  }
+}
+
+.left-section {
+  background-color: #8daffada;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  border-bottom-left-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #333;
+}
+
+.input-field {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.social-btn {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.divider {
+  text-align: center;
+  margin: 1rem 0;
+  color: gray;
+}
+
+.login-btn {
+  font-size: 16px;
+  padding: 12px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #2563eb;
+  border: none;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #1e40af;
+}
+
+.forgot-password {
+  text-align: center;
+}
+
+.forgot-password a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.logo-img {
+  width: 150px;
+}
+
+.stethoscope-img {
+  width: 250px;
+}
+
+.stethoscope-between {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.login-box label {
+  text-align: left;
+  width: 100%;
+}

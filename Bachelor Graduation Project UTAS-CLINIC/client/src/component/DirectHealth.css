@@ -1,0 +1,181 @@
+/* DirectHealth.css */
+.direct-health-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #f0f8ff; /* خلفية جذابة بخلفية زرقاء فاتحة */
+  border-radius: 20px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.direct-health-container:hover {
+  transform: scale(1.02); /* تأثير تحريك بسيط عند التمرير */
+}
+
+.direct-health-header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  background: linear-gradient(90deg, #5198ee, #70aceb); /* تدرج لوني جذاب */
+  padding: 25px;
+  border-radius: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* إضافة تأثير الظل للنص */
+}
+
+.direct-health-description {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  text-align: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.direct-health-description:hover {
+  color: #007bff; /* تغيير اللون عند التمرير على الفقرة */
+}
+
+.direct-health-services-list {
+  margin-top: 40px;
+}
+
+.direct-health-services-list h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.direct-health-services-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.direct-health-services-list li {
+  font-size: 1.1rem;
+  background-color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.direct-health-services-list li:hover {
+  background-color: #007bff;
+  transform: translateY(-5px); /* رفع العنصر عند التمرير */
+  color: white;
+}
+
+.direct-health-services-list strong {
+  color: #00d2ff;
+  font-weight: 600;
+}
+
+.direct-health-additional-info {
+  background: #ffffff;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.direct-health-additional-info h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.direct-health-contact-info {
+  background: #f1f6fb;
+  padding: 25px;
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.direct-health-contact-info h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.direct-health-contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.direct-health-contact-info ul li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.direct-health-contact-info ul li:hover {
+  color: #00d2ff; /* تغيير اللون عند التمرير */
+}
+
+button {
+  width: 100%;
+  padding: 14px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #00d2ff;
+  transform: scale(1.05); /* تكبير الأزرار عند التمرير */
+}
+
+.direct-health-image-gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.direct-health-images-container {
+  display: flex;
+  gap: 20px;
+}
+
+.direct-health-animated-health-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  animation: zoomIn 3s ease-in-out infinite;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}

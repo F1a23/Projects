@@ -1,0 +1,321 @@
+.medication-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.medication-header {
+  text-align: center;
+  padding: 50px;
+  background-color: #030a4d; /* يمكنك تغيير اللون حسب الرغبة */
+  margin-bottom: 60px;
+}
+.h-mdc {
+  color: #ffffff;
+}
+.p-mdc {
+  color: rgb(192, 184, 184);
+}
+.medication-card-img {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+.medication-card {
+  background-color: #f8f8fac3;
+  border-radius: 8px;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  align-content: center !important;
+  margin-right: 10%;
+}
+
+.medication-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.medication-card-body {
+  background-color: #ffffff11;
+  padding: 20px;
+}
+
+.medication-card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.medication-button {
+  width: 50%;
+  display: block;
+  margin: 10px auto; /* لجعل الزر في الوسط */
+}
+
+.medication-input {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.medication-row {
+  row-gap: 30px;
+}
+
+.fancy-box {
+  background: linear-gradient(
+    135deg,
+    #1f3b8c,
+    #5c7dc9,
+    rgb(18, 7, 89)
+  ); /* تدرج أنيق */
+  color: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 40px;
+  animation: slideFadeIn 1s ease-out;
+}
+
+.fancy-box-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  color: #eaeddc;
+}
+
+.fancy-box-text {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.student-info-box {
+  background-color: #f0f4ff;
+  padding: 20px 30px;
+  border-left: 5px solid #1f3b8c;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.student-info-title {
+  font-size: 1.3rem;
+  color: #1f3b8c;
+  margin-bottom: 10px;
+}
+/* CSS للـ input-group */
+.input-group.small-input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* لضمان توزيع العناصر بالتساوي */
+  width: 100%;
+}
+
+/* CSS للـ input (الكمية) */
+.input-group.small-input-group .Qty {
+  flex: 7; /* يأخذ 70% من المساحة */
+  font-size: 1rem; /* حجم الخط ليكون أكبر قليلاً */
+  padding: 0.5rem; /* زيادة padding ليصبح الحقل أكبر */
+  margin-right: 10px; /* المسافة بين الكمية وزر الحذف */
+  border-radius: 4px; /* لتنعيم حواف حقل الكمية */
+}
+
+/* CSS للـ button (زر الحذف) */
+.input-group.small-input-group .DeletB {
+  flex: 0.1; /* يأخذ 30% من المساحة */
+  font-size: 1.5rem; /* حجم الخط للزر */
+  padding: 0.5rem; /* زيادة padding للزر */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* يجعل الزر بنفس ارتفاع حقل الكمية */
+  border: none;
+  border-radius: 4px; /* لتنعيم حواف الزر */
+  background-color: #dc354600; /* لون الخلفية للزر */
+  color: rgb(159, 20, 20); /* لون النص */
+}
+
+/* تنسيق الكرت بشكل عام */
+.medication-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* التأكد من أن النصوص والأزرار تكون في المنتصف */
+.medication-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+/* تأثير عند تمرير الماوس على الكرت */
+.medication-card:hover {
+  background-color: #aac7e6; /* اللون الأزرق */
+  color: white; /* تغيير اللون النص إلى الأبيض */
+  transform: scale(1.05); /* تأثير تكبير بسيط لإبراز الكرت */
+  transition: all 0.3s ease; /* تأثير انسيابي سلس عند التغيير */
+}
+
+/* تأثير عند تمرير الماوس على صورة الكرت */
+.medication-card:hover .medication-card-img {
+  opacity: 0.8; /* تقليل شفافية الصورة لإبراز التأثير */
+} /* medication.css */
+
+/* تنسيق الصفحة بشكل عام */
+.medication-summary-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.medication-summary-title {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* تنسيق الصفوف */
+.medication-summary-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.medication-summary-col {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.medication-summary-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  max-width: 300px;
+  width: 100%;
+}
+
+.medication-summary-card:hover {
+  transform: translateY(-5px);
+}
+
+.medication-summary-img {
+  border-bottom: 2px solid #ddd;
+  height: 150px;
+  object-fit: contain;
+}
+
+.medication-summary-name {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-top: 10px;
+}
+
+.medication-summary-quantity {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.pickup-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.pickup-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.pickup-text p {
+  margin-bottom: 10px;
+}
+/* تخصيص الحاوية التي تحتوي على الزر باستخدام Flexbox */
+.center-button-container {
+  display: flex;
+  justify-content: center; /* محاذاة الزر أفقيًا في المنتصف */
+  align-items: center; /* محاذاة الزر عموديًا في المنتصف */
+}
+
+/* تخصيص الزر باستخدام كلاس خاص */
+.custom-button {
+  padding: 8px 16px; /* تقليل الحشو الداخلي للزر */
+  font-size: 14px; /* تقليل حجم الخط داخل الزر */
+  height: auto; /* السماح للطول بالتكيف مع المحتوى */
+  max-width: 200px; /* تحديد الحد الأقصى للعرض */
+  width: auto; /* السماح للزر بالتمدد حسب النص */
+
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* إضافة تأثير للتغيير */
+}
+
+/* تخصيص الزر عند التمرير فوقه */
+.custom-button:hover {
+  background-color: #0056b3; /* تغيير اللون عند التمرير */
+  border-color: #004085; /* تغيير اللون عند التمرير */
+}
+/* إضافة هوامش من الأعلى والأسفل للمحتوى */
+.medication-summary-container {
+  margin-top: 20px; /* هامش من الأعلى */
+  margin-bottom: 20px; /* هامش من الأسفل */
+  padding-left: 15px; /* هوامش من اليسار */
+  padding-right: 15px; /* هوامش من اليمين */
+}
+
+/* إضافة هامش للمحتوى في حالة وجود فوتر أو هيدر */
+.user-details,
+.medications-list,
+.delivery-summary {
+  margin-bottom: 20px;
+}
+
+/* تخصيص فواصل بين الأقسام */
+hr {
+  margin: 20px 0;
+}
+
+/* تخصيص أزرار و النصوص */
+.medication-summary-title {
+  margin-bottom: 10px; /* هامش تحت العنوان */
+}
+
+.medication-item p {
+  margin-bottom: 10px; /* فاصل بين العناصر */
+}
+/* إضافة تنسيق للأزرار */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* الفجوة بين الأزرار */
+  margin-top: 20px;
+  width: 500px; /* عرض الأزرار */
+  margin: 0 auto; /* لتوسيط الأزرار في الصفحة */
+}
+
+.action-button {
+  flex: 1; /* الأزرار تأخذ نفس المساحة */
+  padding: 10px; /* زيادة الحجم لجعل الأزرار تبدو أكبر */
+  font-size: 16px;
+}

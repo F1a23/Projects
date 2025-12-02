@@ -1,0 +1,227 @@
+/* HealthEducation.css */
+.health-education-container {
+  background-color: #eef2f4;
+  width: 70%;
+  padding: 20px;
+  margin: 0 auto; /* لضمان التوسيط التام أفقيًا */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* لضمان التوسيط الرأسي */
+  align-items: center; /* لضمان التوسيط الرأسي */
+  min-height: 100vh; /* ضمان أن الحاوية تغطي كامل ارتفاع الشاشة */
+}
+
+.health-education-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center; /* جعل العنوان في الوسط */
+}
+
+.health-service-card {
+  margin-bottom: 30px;
+  height: 100%; /* جعل كل الكروت بنفس الارتفاع */
+  display: flex;
+  flex-direction: column; /* ترتيب المحتوى عموديًا */
+  justify-content: space-between; /* توزيع المحتوى داخل الكارد */
+}
+
+.health-service-icon {
+  background-color: #007bff; /* خلفية زرقاء للأيقونة */
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px; /* لتوسيط الأيقونة داخل المربع */
+}
+
+button {
+  width: 100%;
+  margin-top: 15px;
+  background-color: #007bff; /* اللون الأزرق للأزرار */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* اللون الأزرق الغامق عند التمرير */
+}
+
+.health-education-container h2 {
+  font-size: 2rem;
+  margin-top: 40px;
+  text-align: center; /* جعل العنوان في الوسط */
+}
+
+.health-education-container h3 {
+  margin-top: 50px;
+  text-align: center; /* جعل العنوان في الوسط */
+}
+
+/* تنسيق الصور المتحركة */
+.health-image-gallery {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.health-images-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.animated-health-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px;
+  animation: slideIn 2s ease-in-out infinite;
+}
+
+/* الرسوم المتحركة للصور */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* تنسيق قسم الطلب والمساعدة */
+.health-request-assistance {
+  background-color: #fff3cd; /* لون خلفية هادئ */
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.health-request-assistance h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.health-request-assistance p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.health-support-button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: #0056b3;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.health-support-button:hover {
+  background-color: #b71c1c;
+} /* تنسيق الصور المتحركة */
+.new-health-image-gallery {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.new-health-images-container {
+  display: flex;
+  justify-content: space-between; /* تقليل المسافة بين الصور */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.new-animated-health-image {
+  width: 150px; /* تقليل حجم الصور */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 5px; /* تقليل المسافة بين الصور */
+  animation: newSlideIn 3s ease-in-out infinite;
+}
+/* تنسيق العنوان */
+.programs-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px; /* مسافة أسفل العنوان */
+  letter-spacing: 1px; /* تحسين تباعد الأحرف */
+}
+
+/* تنسيق الفقرة */
+.programs-description {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 40px; /* مسافة أسفل الفقرة */
+}
+/* تنسيق العنوان */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px; /* مسافة أسفل العنوان */
+}
+
+/* تنسيق الأزرار */
+.health-support-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: auto;
+}
+
+.health-support-button:hover {
+  background-color: #0056b3;
+}
+
+/* تنسيق الفقرة */
+.mb-4 {
+  margin-bottom: 1.5rem; /* مسافة أسفل الفقرة */
+}
+/* تنسيق العنوان */
+.health-education-title {
+  font-size: 2.8rem; /* حجم كبير */
+  font-weight: bold;
+  color: #201365; /* لون داكن */
+  letter-spacing: 1px; /* تباعد الأحرف */
+  margin-bottom: 20px;
+}
+
+/* تنسيق الفقرة */
+.health-education-description {
+  font-size: 1.2rem;
+  color: #555553; /* لون رمادي فاتح */
+  line-height: 1.7;
+  max-width: 800px; /* تحديد أقصى عرض */
+  margin: 0 auto; /* محاذاة للنص */
+}

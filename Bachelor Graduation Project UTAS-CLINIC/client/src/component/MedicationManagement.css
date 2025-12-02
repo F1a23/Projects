@@ -1,0 +1,11 @@
+/* داخل ملف CSS الخاص بك */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}

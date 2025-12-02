@@ -1,0 +1,114 @@
+/* AppointmentScheduling.css */
+
+/* General Container */
+.appointment-container {
+  padding: 30px;
+  background-color: #e4e8ee;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 4px 90px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.appointment-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #003366;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Description Styling */
+.appointment-container p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+.appointment-container form {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styling */
+.appointment-container .form-group {
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+.appointment-container label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #003366;
+}
+
+/* Input Styling */
+.appointment-container input[type="text"],
+.appointment-container input[type="email"],
+.appointment-container input[type="date"],
+.appointment-container select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.appointment-container input:focus,
+.appointment-container select:focus {
+  border-color: #003366;
+  box-shadow: 0 0 5px rgba(0, 51, 102, 0.5);
+  outline: none;
+}
+
+/* Button Styling */
+.appointment-container button {
+  background-color: #003366;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-container button:hover {
+  background-color: #002244;
+}
+
+/* Success Message */
+.appointment-container .alert-success {
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #28a745;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Error Message */
+.appointment-container .alert-error {
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

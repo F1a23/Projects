@@ -1,0 +1,100 @@
+.ntrp-profile-wrapper {
+  background: #f4f6f9;
+  min-height: 120vh;
+  padding: 60px 0;
+}
+
+.ntrp-container {
+  max-width: 950px;
+}
+
+.ntrp-card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  overflow: hidden;
+}
+
+.ntrp-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ntrp-sidebar {
+  background: linear-gradient(135deg, #0d064c, #3059d6);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  min-height: 100%;
+}
+
+.ntrp-profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ntrp-username {
+  font-size: 1.7rem;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.ntrp-role {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.ntrp-info {
+  padding: 50px 40px;
+  background: #ffffff;
+}
+
+.ntrp-section-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.ntrp-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+  color: #555;
+}
+
+.ntrp-label {
+  min-width: 180px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #444;
+}
+
+.ntrp-value {
+  flex: 1;
+  color: #333;
+}
+
+.ntrp-divider {
+  margin: 35px 0;
+  border-top: 1px solid #e5e5e5;
+}
+.ntrp-profile-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}

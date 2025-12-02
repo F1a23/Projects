@@ -1,0 +1,164 @@
+.theme-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  align-items: center; /* محاذاة الأيقونة عموديًا */
+  justify-content: center; /* محاذاة الأيقونة داخل الزر */
+  height: 100%; /* تأكد من أن الزر بنفس الارتفاع */
+}
+
+.theme-toggle:hover {
+  transform: scale(1.2);
+}
+
+.sun-icon {
+  color: #fbc02d;
+  text-shadow: 0 0 10px #fbc02d;
+}
+
+.moon-icon {
+  color: #90caf9;
+  text-shadow: 0 0 10px #90caf9;
+}
+
+/* تنسيق الوضع الداكن */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.logo {
+  width: 50px; /* تصغير حجم الصورة */
+  height: auto;
+  margin-left: 10px; /* إضافة هامش من اليسار */
+}
+/*University Clinic*/
+.navbar-brand {
+  font-size: 1.2rem; /* تكبير حجم الخط */
+  font-weight: bold; /* جعل الخط عريض */
+  font-family: "Arial", sans-serif; /* تغيير نوع الخط */
+  display: flex;
+  align-items: center; /* محاذاة النص والصورة في نفس الخط */
+}
+
+.navbar-nav .nav-item {
+  margin: 0 5px; /* إضافة مسافة بين العناصر */
+}
+
+.navbar-nav .nav-link {
+  font-size: 19px; /* تكبير حجم الخط */
+  font-weight: 500; /* جعل الخط متوسط السماكة */
+  color: #333; /* تغيير اللون الأساسي */
+  transition: color 0.3s, transform 0.2s; /* تأثير الانتقال */
+  text-align: center;
+}
+
+/* تأثير عند تمرير الفأرة */
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* تغيير اللون عند التمرير */
+  transform: scale(1.1); /* تكبير بسيط عند التمرير */
+}
+
+/* تخصيص العنصر النشط */
+.navbar-nav .nav-link.active {
+  color: #007bff; /* لون العنصر النشط */
+  font-weight: bold;
+  border-bottom: 2px solid #007bff; /* خط تحت العنصر النشط */
+}
+
+/* تعطيل تأثير الروابط المعطلة */
+.navbar-nav .nav-link.disabled {
+  color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 8px; /* مسافة بين كل عنصر */
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0; /* إزالة المسافة من العنصر الأخير */
+}
+.navbar-nav {
+  display: flex; /* استخدام الفليكس لعرض العناصر بجانب بعضها */
+  justify-content: center; /* محاذاة العناصر في المنتصف */
+  align-items: center; /* محاذاة العناصر عموديًا في المنتصف */
+  width: 100%; /* تأكد من أن العناصر تغطي عرض الشريط */
+}
+
+.bb {
+  width: 15%;
+  font-size: 25px;
+  display: flex;
+  align-items: center; /* محاذاة الزر عموديًا */
+  justify-content: center; /* محاذاة النص داخل الزر */
+  height: 60%; /* تأكد من أن الأزرار الأخرى لها نفس الارتفاع */
+  margin-top: 0;
+}
+/*langu*/
+.bb.btn.btn-primary.ms-2 {
+  width: 15%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  margin-top: 0;
+}
+
+.btn.btn-outline-secondary.ms-2,
+.bb {
+  width: 10%;
+  display: flex;
+  align-items: center; /* محاذاة عمودية */
+  justify-content: center; /* محاذاة أفقية */
+  height: 100%;
+  margin-top: 0;
+  gap: 8px; /* مسافة بسيطة بين الأيقونة والنص */
+}
+
+.navbar-nav .nav-item,
+.search,
+.bb {
+  display: flex;
+  align-items: center; /* محاذاة العناصر عموديًا معًا */
+  height: 100%;
+}
+
+.search {
+  width: 40%;
+  display: flex;
+  align-items: center; /* محاذاة النص داخل الزر */
+}
+
+.search input,
+.search button {
+  height: 100%; /* تأكد من أن المدخل والزر لهما نفس الارتفاع */
+  font-size: 1rem;
+}
+
+.navbar-toggler {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  width: 40%;
+  display: flex;
+  align-items: center; /* تأكد من محاذاة الزر عموديًا مع العناصر الأخرى */
+  margin-top: 0; /* تأكد من إزالة أي هامش علوى */
+}
+
+.search input {
+  height: 100%; /* تأكد من أن حجم المدخل يناسب الحاوية */
+}
+
+.search button {
+  height: 100%; /* تأكد من أن الزر بنفس الارتفاع مع المدخل */
+  display: flex;
+  align-items: center; /* محاذاة النص داخل الزر */
+}

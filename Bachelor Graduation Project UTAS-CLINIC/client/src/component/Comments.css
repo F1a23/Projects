@@ -1,0 +1,75 @@
+.comments-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-button {
+  background-color: #284ecb;
+  border: none;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrow-button:hover {
+  background-color: #94a60b;
+}
+
+.left-arrow {
+  position: absolute;
+  left: -30px;
+}
+
+.right-arrow {
+  position: absolute;
+  right: -30px;
+}
+
+.feedback-card {
+  background-color: #ecf7f8;
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 230px;
+}
+
+.feedback-icon {
+  color: #007bff;
+}
+
+.feedback-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #13079c;
+}
+.feedback-msg {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #53525c;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-rating {
+  font-size: 1rem;
+  color: rgb(128, 116, 5);
+  font-weight: bold;
+}
+.feedback-Rating {
+  color: #1c047e;
+  font-weight: bold;
+  text-align: left; /* محاذاة النص إلى اليسار */
+  padding-left: 15px;
+  padding-bottom: 20px;
+}

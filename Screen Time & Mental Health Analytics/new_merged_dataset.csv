@@ -1,0 +1,1001 @@
+app_name,category,screen_time_min,is_productive,screen_time_hours,age,gender,technology_usage_hours,social_media_usage_hours,gaming_hours,mental_health_status,stress_level,sleep_hours,physical_activity_hours,support_systems_access,online_support_usage,heavy_user,total_app_usage,stress_level_num,digital_wellbeing_index
+Slack,Productivity,61.13,True,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Instagram,Social,74.35,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Notion,Productivity,112.84,True,1.9,27,Other,4.77,7.2,3.25,Fair,Medium,6.57,5.77,No,No,0,15.219999999999999,2,-0.20999999999999996
+WhatsApp,Social,61.69,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Google Docs,Productivity,106.11,True,1.8,57,Other,3.84,1.28,1.78,Good,High,5.39,4.45,Yes,No,0,6.9,3,1.0274999999999999
+Google Docs,Productivity,90.26,True,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Snapchat,Social,108.19,False,1.8,41,Male,1.68,6.02,0.39,Fair,High,5.08,6.39,Yes,No,0,8.09,3,-0.23499999999999988
+Gmail,Utilities,60.27,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+YouTube,Entertainment,71.7,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Twitter,Social,86.34,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Netflix,Entertainment,176.98,False,2.9,41,Male,4.68,5.26,0.84,Excellent,Medium,4.84,2.33,No,No,1,10.78,2,-0.13999999999999999
+Slack,Productivity,63.85,True,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Google Maps,Utilities,89.55,False,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+TikTok,Entertainment,97.36,False,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+Instagram,Social,209.48,False,3.5,27,Other,7.17,3.93,3.24,Good,Medium,7.75,3.15,Yes,No,1,14.34,2,1.2733333333333332
+Camera,Utilities,78.18,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Google Maps,Utilities,76.06,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+TikTok,Entertainment,77.49,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Facebook,Social,76.55,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Weather,Utilities,113.89,False,1.9,33,Other,7.3,7.59,1.86,Excellent,Medium,8.65,1.48,No,No,0,16.75,2,0.3533333333333335
+Facebook,Social,76.55,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+YouTube,Entertainment,71.7,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Slack,Productivity,115.19,True,1.9,29,Female,3.92,7.49,2.36,Excellent,High,7.25,7.0,No,Yes,0,13.77,3,-0.06000000000000005
+Instagram,Social,134.82,False,2.2,38,Female,10.62,3.92,0.55,Poor,Medium,6.42,9.8,No,Yes,1,15.09,2,0.8333333333333334
+Microsoft Teams,Productivity,66.59,True,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+TikTok,Entertainment,119.72,False,2.0,48,Other,1.12,6.56,4.44,Good,Low,6.62,1.45,No,Yes,0,12.120000000000001,1,0.03000000000000025
+Chrome,Utilities,57.06,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Instagram,Social,134.14,False,2.2,18,Male,3.26,5.59,4.21,Poor,Low,5.21,1.08,No,No,1,13.059999999999999,1,-0.18999999999999995
+Gmail,Utilities,59.13,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Evernote,Productivity,117.82,True,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,0,15.25,1,3.205
+Twitter,Social,63.15,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Weather,Utilities,120.06,False,2.0,48,Other,1.12,6.56,4.44,Good,Low,6.62,1.45,No,Yes,1,12.120000000000001,1,0.03000000000000025
+Instagram,Social,76.82,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Slack,Productivity,120.59,True,2.0,22,Female,9.81,4.95,2.31,Good,High,8.31,4.99,Yes,No,1,17.07,3,0.8400000000000001
+Microsoft Teams,Productivity,58.55,True,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Camera,Utilities,93.37,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Twitch,Entertainment,127.93,False,2.1,19,Male,7.85,4.69,3.71,Good,Medium,5.55,4.55,Yes,No,1,16.25,2,0.28666666666666646
+Slack,Productivity,73.02,True,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Instagram,Social,77.75,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+YouTube,Entertainment,204.18,False,3.4,28,Female,2.02,0.67,4.96,Fair,High,5.83,4.86,No,No,1,7.65,3,1.29
+Twitter,Social,70.58,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Slack,Productivity,58.99,True,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Twitch,Entertainment,71.17,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Facebook,Social,78.08,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Instagram,Social,152.18,False,2.5,62,Male,10.05,4.69,3.58,Fair,Low,6.76,0.37,No,No,1,18.32,1,1.0349999999999997
+Slack,Productivity,87.33,True,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+Slack,Productivity,58.38,True,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+YouTube,Entertainment,61.73,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Microsoft Teams,Productivity,69.48,True,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Twitch,Entertainment,72.76,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Snapchat,Social,97.22,False,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Slack,Productivity,64.93,True,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Google Docs,Productivity,70.22,True,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Twitter,Social,85.92,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Spotify,Entertainment,59.64,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Twitter,Social,65.92,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+YouTube,Entertainment,75.48,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Spotify,Entertainment,140.73,False,2.3,45,Other,10.15,3.13,1.71,Good,High,7.83,8.87,Yes,No,1,14.990000000000002,3,1.175
+Snapchat,Social,68.26,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Microsoft Teams,Productivity,66.59,True,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+YouTube,Entertainment,59.81,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Weather,Utilities,65.35,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Spotify,Entertainment,76.86,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Snapchat,Social,109.16,False,1.8,23,Female,7.46,0.31,1.19,Fair,High,8.29,1.89,No,Yes,0,8.959999999999999,3,1.9949999999999999
+WhatsApp,Social,88.65,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Google Maps,Utilities,89.55,False,1.5,38,Male,3.42,7.58,2.96,Fair,Medium,7.15,7.05,Yes,Yes,0,13.96,2,-0.14333333333333323
+Weather,Utilities,120.06,False,2.0,50,Female,7.6,1.71,4.1,Fair,Low,7.09,3.61,Yes,No,1,13.409999999999998,1,2.69
+Evernote,Productivity,93.16,True,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Google Docs,Productivity,106.11,True,1.8,23,Female,7.46,0.31,1.19,Fair,High,8.29,1.89,No,Yes,0,8.959999999999999,3,1.9949999999999999
+Gmail,Utilities,86.93,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Twitch,Entertainment,71.49,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Camera,Utilities,93.37,False,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Snapchat,Social,91.22,False,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Twitter,Social,58.14,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Spotify,Entertainment,73.22,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Notion,Productivity,212.87,True,3.5,26,Male,3.42,0.92,4.73,Fair,Low,8.76,5.98,Yes,Yes,1,9.07,1,3.92
+WhatsApp,Social,65.7,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Gmail,Utilities,60.27,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Twitch,Entertainment,166.04,False,2.8,26,Male,10.65,7.76,0.35,Fair,High,6.56,6.27,Yes,No,1,18.76,3,-0.30000000000000004
+Snapchat,Social,80.98,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+YouTube,Entertainment,107.74,False,1.8,19,Other,8.45,4.7,4.0,Excellent,High,5.49,5.51,No,Yes,0,17.15,3,0.1975
+Spotify,Entertainment,73.22,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Twitter,Social,67.76,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Gmail,Utilities,59.13,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Twitch,Entertainment,71.35,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Snapchat,Social,142.66,False,2.4,36,Male,6.24,6.76,2.71,Poor,Medium,5.28,1.93,No,Yes,1,15.71,2,-0.4933333333333332
+Twitch,Entertainment,71.35,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Spotify,Entertainment,71.58,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Instagram,Social,152.18,False,2.5,37,Other,3.97,3.19,4.85,Fair,Low,8.98,5.34,Yes,Yes,1,12.01,1,2.8950000000000005
+Netflix,Entertainment,60.09,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Google Maps,Utilities,82.74,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Spotify,Entertainment,90.01,False,1.5,63,Other,6.64,4.76,4.38,Excellent,Medium,8.75,0.12,Yes,No,0,15.779999999999998,2,1.33
+Twitter,Social,58.14,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Microsoft Teams,Productivity,98.53,True,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Facebook,Social,65.48,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Notion,Productivity,67.95,True,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Instagram,Social,71.74,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Chrome,Utilities,98.87,False,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Notion,Productivity,103.96,True,1.7,32,Female,3.43,5.88,4.84,Fair,Low,6.42,9.1,No,Yes,0,14.15,1,0.27
+Google Docs,Productivity,154.46,True,2.6,24,Other,4.44,4.86,1.63,Poor,Low,6.67,2.97,No,No,1,10.93,1,0.9049999999999998
+Microsoft Teams,Productivity,70.86,True,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Google Maps,Utilities,69.29,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Evernote,Productivity,88.73,True,1.5,34,Female,5.55,5.06,1.68,Good,High,8.88,2.37,Yes,No,0,12.29,3,0.9550000000000003
+Netflix,Entertainment,73.5,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Gmail,Utilities,61.71,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Facebook,Social,74.63,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Snapchat,Social,138.82,False,2.3,45,Other,10.15,3.13,1.71,Good,High,7.83,8.87,Yes,No,1,14.990000000000002,3,1.175
+Snapchat,Social,97.22,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Instagram,Social,209.48,False,3.5,53,Female,1.22,6.56,1.65,Good,High,6.69,2.24,Yes,Yes,1,9.43,3,0.032500000000000195
+Microsoft Teams,Productivity,70.86,True,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+YouTube,Entertainment,86.42,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Slack,Productivity,64.93,True,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Gmail,Utilities,86.93,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+YouTube,Entertainment,71.42,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+WhatsApp,Social,63.44,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Slack,Productivity,120.59,True,2.0,36,Other,9.34,5.41,1.32,Good,High,7.28,6.72,Yes,No,1,16.07,3,0.4675
+Twitter,Social,74.06,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Gmail,Utilities,69.05,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Google Maps,Utilities,73.82,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Camera,Utilities,89.53,False,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Microsoft Teams,Productivity,116.23,True,1.9,18,Male,3.24,2.28,0.34,Good,Low,5.54,7.9,No,No,0,5.859999999999999,1,1.6300000000000001
+Twitch,Entertainment,71.35,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Chrome,Utilities,114.29,False,1.9,20,Other,2.95,2.98,3.49,Good,High,5.07,2.79,Yes,Yes,0,9.42,3,0.5225000000000001
+Camera,Utilities,89.53,False,1.5,25,Male,4.86,1.7,0.76,Fair,Medium,6.72,5.26,No,Yes,0,7.32,2,1.6733333333333331
+Facebook,Social,132.83,False,2.2,38,Female,10.62,3.92,0.55,Poor,Medium,6.42,9.8,No,Yes,1,15.09,2,0.8333333333333334
+Gmail,Utilities,75.79,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+YouTube,Entertainment,140.01,False,2.3,64,Male,6.95,5.03,4.53,Excellent,Medium,5.69,9.21,No,Yes,1,16.51,2,0.22000000000000006
+Spotify,Entertainment,140.73,False,2.3,58,Other,11.83,6.58,3.41,Poor,Medium,6.37,7.74,No,Yes,1,21.82,2,-0.06999999999999999
+Spotify,Entertainment,57.98,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Gmail,Utilities,72.25,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Slack,Productivity,72.07,True,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Instagram,Social,61.59,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+YouTube,Entertainment,73.79,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Notion,Productivity,64.99,True,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Instagram,Social,134.82,False,2.2,26,Male,10.46,0.49,3.01,Excellent,High,5.54,6.5,No,Yes,1,13.96,3,1.2625
+Evernote,Productivity,71.26,True,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Facebook,Social,168.18,False,2.8,56,Female,9.07,5.54,1.67,Poor,High,8.61,7.12,Yes,Yes,1,16.28,3,0.7674999999999998
+Facebook,Social,131.26,False,2.2,18,Male,3.26,5.59,4.21,Poor,Low,5.21,1.08,No,No,1,13.059999999999999,1,-0.18999999999999995
+Twitch,Entertainment,166.04,False,2.8,34,Female,9.53,3.86,1.88,Fair,High,4.85,8.67,Yes,Yes,1,15.27,3,0.24749999999999994
+Evernote,Productivity,64.16,True,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Spotify,Entertainment,107.48,False,1.8,23,Female,7.46,0.31,1.19,Fair,High,8.29,1.89,No,Yes,0,8.959999999999999,3,1.9949999999999999
+WhatsApp,Social,115.62,False,1.9,33,Other,7.3,7.59,1.86,Excellent,Medium,8.65,1.48,No,No,0,16.75,2,0.3533333333333335
+Twitch,Entertainment,72.76,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Twitch,Entertainment,66.58,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+WhatsApp,Social,95.03,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Twitter,Social,139.43,False,2.3,45,Male,7.95,6.98,3.48,Excellent,Medium,7.07,4.98,Yes,No,1,18.41,2,0.029999999999999954
+Snapchat,Social,80.98,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Weather,Utilities,83.4,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Twitch,Entertainment,71.49,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Gmail,Utilities,86.93,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+YouTube,Entertainment,138.13,False,2.3,32,Other,4.63,3.31,3.66,Fair,Low,6.98,5.32,No,Yes,1,11.6,1,1.8350000000000002
+Spotify,Entertainment,73.59,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Spotify,Entertainment,73.59,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Google Maps,Utilities,93.79,False,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Chrome,Utilities,98.87,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Gmail,Utilities,97.46,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Notion,Productivity,112.84,True,1.9,18,Male,3.24,2.28,0.34,Good,Low,5.54,7.9,No,No,0,5.859999999999999,1,1.6300000000000001
+Facebook,Social,76.53,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Twitch,Entertainment,93.6,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Google Docs,Productivity,117.68,True,2.0,54,Other,1.94,1.61,1.88,Excellent,Low,5.92,4.47,Yes,Yes,0,5.43,1,2.155
+Instagram,Social,64.48,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Slack,Productivity,120.59,True,2.0,48,Other,1.12,6.56,4.44,Good,Low,6.62,1.45,No,Yes,1,12.120000000000001,1,0.03000000000000025
+Camera,Utilities,112.81,False,1.9,40,Female,11.8,4.62,2.01,Excellent,Medium,5.49,1.63,No,No,0,18.43,2,0.29000000000000004
+Twitter,Social,76.3,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Gmail,Utilities,69.05,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Spotify,Entertainment,72.64,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Spotify,Entertainment,72.64,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Twitter,Social,63.15,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Slack,Productivity,58.99,True,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+YouTube,Entertainment,68.7,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+WhatsApp,Social,131.16,False,2.2,23,Male,8.61,5.01,3.38,Excellent,High,6.48,6.97,Yes,No,1,17.0,3,0.36750000000000016
+Slack,Productivity,115.19,True,1.9,47,Female,2.65,2.22,0.68,Good,Low,4.94,0.85,Yes,Yes,0,5.55,1,1.36
+Slack,Productivity,63.85,True,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+WhatsApp,Social,106.12,False,1.8,23,Female,7.46,0.31,1.19,Fair,High,8.29,1.89,No,Yes,0,8.959999999999999,3,1.9949999999999999
+Weather,Utilities,73.35,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+WhatsApp,Social,88.65,False,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Twitch,Entertainment,108.23,False,1.8,32,Other,1.8,2.42,3.03,Fair,Low,5.12,9.17,Yes,No,0,7.25,1,1.35
+Camera,Utilities,89.53,False,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Google Maps,Utilities,83.22,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Evernote,Productivity,93.16,True,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Instagram,Social,134.14,False,2.2,55,Female,1.86,2.93,0.47,Good,Low,6.08,9.86,No,No,1,5.26,1,1.575
+Google Docs,Productivity,90.26,True,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+Google Maps,Utilities,73.82,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+YouTube,Entertainment,86.04,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+YouTube,Entertainment,107.74,False,1.8,41,Male,1.93,1.6,1.54,Fair,Low,5.59,1.91,Yes,Yes,0,5.07,1,1.9949999999999999
+YouTube,Entertainment,73.77,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Twitch,Entertainment,71.18,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Google Docs,Productivity,68.26,True,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Netflix,Entertainment,73.84,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Netflix,Entertainment,140.76,False,2.3,32,Other,9.63,3.18,2.4,Fair,Low,4.61,3.95,No,No,1,15.21,1,0.7150000000000001
+Netflix,Entertainment,73.5,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Twitter,Social,77.61,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Google Maps,Utilities,75.61,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Netflix,Entertainment,141.37,False,2.4,56,Male,5.3,2.11,0.31,Poor,Medium,6.04,6.72,Yes,Yes,1,7.72,2,1.31
+Camera,Utilities,98.61,False,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+Slack,Productivity,120.59,True,2.0,46,Male,1.64,5.65,2.34,Excellent,High,4.44,2.17,Yes,Yes,1,9.629999999999999,3,-0.3025
+Twitter,Social,63.15,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Notion,Productivity,67.95,True,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Twitch,Entertainment,66.58,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Spotify,Entertainment,118.76,False,2.0,50,Female,7.6,1.71,4.1,Fair,Low,7.09,3.61,Yes,No,0,13.409999999999998,1,2.69
+Google Maps,Utilities,84.67,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Snapchat,Social,73.56,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Instagram,Social,74.35,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Chrome,Utilities,64.23,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+TikTok,Entertainment,63.45,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Twitch,Entertainment,71.49,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Chrome,Utilities,61.04,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Twitter,Social,88.39,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Notion,Productivity,215.94,True,3.6,64,Other,3.72,3.77,2.73,Excellent,High,5.99,3.4,No,No,1,10.22,3,0.555
+Spotify,Entertainment,67.17,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Snapchat,Social,71.79,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Instagram,Social,119.85,False,2.0,48,Other,1.12,6.56,4.44,Good,Low,6.62,1.45,No,Yes,0,12.120000000000001,1,0.03000000000000025
+Google Maps,Utilities,69.29,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Twitch,Entertainment,66.58,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Google Maps,Utilities,89.55,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Google Docs,Productivity,106.11,True,1.8,32,Other,1.8,2.42,3.03,Fair,Low,5.12,9.17,Yes,No,0,7.25,1,1.35
+Netflix,Entertainment,73.5,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Spotify,Entertainment,80.02,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Microsoft Teams,Productivity,66.69,True,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Chrome,Utilities,62.33,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Snapchat,Social,124.05,False,2.1,21,Male,7.93,5.42,4.0,Fair,Low,4.79,4.07,Yes,No,1,17.35,1,-0.31499999999999995
+Slack,Productivity,120.03,True,2.0,22,Female,9.81,4.95,2.31,Good,High,8.31,4.99,Yes,No,1,17.07,3,0.8400000000000001
+Chrome,Utilities,71.41,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Evernote,Productivity,83.73,True,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Google Docs,Productivity,117.68,True,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,0,15.25,1,3.205
+Google Maps,Utilities,101.2,False,1.7,32,Female,3.43,5.88,4.84,Fair,Low,6.42,9.1,No,Yes,0,14.15,1,0.27
+Twitter,Social,70.58,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+WhatsApp,Social,81.04,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Twitter,Social,141.65,False,2.4,39,Male,1.28,4.94,2.87,Fair,Medium,8.15,6.09,No,No,1,9.09,2,1.07
+Instagram,Social,63.91,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+TikTok,Entertainment,119.72,False,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,0,15.25,1,3.205
+Weather,Utilities,107.5,False,1.8,41,Male,1.68,6.02,0.39,Fair,High,5.08,6.39,Yes,No,0,8.09,3,-0.23499999999999988
+Weather,Utilities,73.35,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Snapchat,Social,73.56,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+YouTube,Entertainment,73.77,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Gmail,Utilities,108.1,False,1.8,57,Other,3.84,1.28,1.78,Good,High,5.39,4.45,Yes,No,0,6.9,3,1.0274999999999999
+Microsoft Teams,Productivity,59.59,True,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+TikTok,Entertainment,97.36,False,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Camera,Utilities,73.66,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Evernote,Productivity,72.31,True,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Google Maps,Utilities,75.71,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Slack,Productivity,72.07,True,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Twitch,Entertainment,120.14,False,2.0,36,Male,7.51,7.24,0.83,Fair,Medium,5.85,4.75,Yes,Yes,1,15.58,2,-0.46333333333333354
+Facebook,Social,74.63,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Facebook,Social,81.63,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Facebook,Social,64.89,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Twitter,Social,139.43,False,2.3,45,Other,10.15,3.13,1.71,Good,High,7.83,8.87,Yes,No,1,14.990000000000002,3,1.175
+Facebook,Social,168.18,False,2.8,18,Female,1.72,2.52,4.63,Poor,High,7.26,2.45,No,No,1,8.870000000000001,3,1.185
+Chrome,Utilities,73.61,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+TikTok,Entertainment,77.49,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Snapchat,Social,109.16,False,1.8,33,Other,5.01,2.04,4.23,Poor,High,5.76,0.82,No,Yes,0,11.280000000000001,3,0.9299999999999999
+Slack,Productivity,209.63,True,3.5,39,Male,6.36,1.29,0.61,Poor,High,8.17,5.31,Yes,No,1,8.26,3,1.72
+Snapchat,Social,58.64,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Chrome,Utilities,64.23,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+YouTube,Entertainment,73.79,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Chrome,Utilities,66.26,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Slack,Productivity,64.93,True,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Instagram,Social,119.85,False,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,0,15.25,1,3.205
+Google Maps,Utilities,62.96,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Evernote,Productivity,61.86,True,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Google Maps,Utilities,126.7,False,2.1,21,Male,7.93,5.42,4.0,Fair,Low,4.79,4.07,Yes,No,1,17.35,1,-0.31499999999999995
+WhatsApp,Social,66.35,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Spotify,Entertainment,155.53,False,2.6,24,Other,4.44,4.86,1.63,Poor,Low,6.67,2.97,No,No,1,10.93,1,0.9049999999999998
+YouTube,Entertainment,204.18,False,3.4,40,Other,5.87,1.59,2.37,Good,High,8.44,8.37,No,No,1,9.83,3,1.7125
+WhatsApp,Social,95.03,False,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+Microsoft Teams,Productivity,82.08,True,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Evernote,Productivity,71.26,True,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Camera,Utilities,112.81,False,1.9,47,Female,2.65,2.22,0.68,Good,Low,4.94,0.85,Yes,Yes,0,5.55,1,1.36
+Google Maps,Utilities,78.92,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Facebook,Social,74.63,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Twitch,Entertainment,72.76,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+WhatsApp,Social,114.58,False,1.9,42,Male,3.18,5.37,2.17,Good,Medium,5.87,2.96,No,Yes,0,10.72,2,0.16666666666666666
+Chrome,Utilities,110.96,False,1.8,57,Other,3.84,1.28,1.78,Good,High,5.39,4.45,Yes,No,0,6.9,3,1.0274999999999999
+Notion,Productivity,112.84,True,1.9,46,Male,8.16,1.06,1.57,Fair,High,4.11,8.77,No,Yes,0,10.790000000000001,3,0.7625000000000001
+WhatsApp,Social,131.16,False,2.2,26,Male,10.46,0.49,3.01,Excellent,High,5.54,6.5,No,Yes,1,13.96,3,1.2625
+Netflix,Entertainment,73.5,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Twitter,Social,74.06,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+TikTok,Entertainment,82.22,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Twitter,Social,60.29,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+YouTube,Entertainment,138.13,False,2.3,58,Other,11.83,6.58,3.41,Poor,Medium,6.37,7.74,No,Yes,1,21.82,2,-0.06999999999999999
+Notion,Productivity,94.33,True,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Twitter,Social,65.92,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Slack,Productivity,81.21,True,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Chrome,Utilities,114.29,False,1.9,25,Other,4.5,2.76,1.43,Fair,Low,4.5,5.83,Yes,Yes,0,8.69,1,0.8700000000000001
+Google Docs,Productivity,117.68,True,2.0,48,Other,1.12,6.56,4.44,Good,Low,6.62,1.45,No,Yes,0,12.120000000000001,1,0.03000000000000025
+YouTube,Entertainment,73.77,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Netflix,Entertainment,140.76,False,2.3,24,Male,9.2,4.53,2.78,Good,Medium,7.66,1.43,No,Yes,1,16.51,2,1.0433333333333332
+Evernote,Productivity,89.75,True,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Chrome,Utilities,115.36,False,1.9,42,Male,3.18,5.37,2.17,Good,Medium,5.87,2.96,No,Yes,0,10.72,2,0.16666666666666666
+Chrome,Utilities,166.24,False,2.8,34,Female,9.53,3.86,1.88,Fair,High,4.85,8.67,Yes,Yes,1,15.27,3,0.24749999999999994
+Facebook,Social,164.81,False,2.7,43,Female,8.06,0.51,2.37,Excellent,High,7.57,8.49,Yes,Yes,1,10.940000000000001,3,1.7650000000000001
+Instagram,Social,134.82,False,2.2,23,Male,8.61,5.01,3.38,Excellent,High,6.48,6.97,Yes,No,1,17.0,3,0.36750000000000016
+Netflix,Entertainment,73.84,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Evernote,Productivity,88.73,True,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Facebook,Social,74.63,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Spotify,Entertainment,73.22,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+WhatsApp,Social,106.12,False,1.8,41,Male,1.68,6.02,0.39,Fair,High,5.08,6.39,Yes,No,0,8.09,3,-0.23499999999999988
+Facebook,Social,59.22,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Snapchat,Social,78.62,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+YouTube,Entertainment,67.04,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Weather,Utilities,120.06,False,2.0,40,Other,6.71,7.53,1.65,Excellent,Medium,7.31,3.2,Yes,Yes,1,15.89,2,-0.07333333333333354
+Instagram,Social,173.86,False,2.9,33,Other,9.42,4.28,4.67,Excellent,Low,7.49,4.28,Yes,No,1,18.369999999999997,1,1.605
+Chrome,Utilities,99.29,False,1.7,32,Female,3.43,5.88,4.84,Fair,Low,6.42,9.1,No,Yes,0,14.15,1,0.27
+Chrome,Utilities,71.41,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Camera,Utilities,75.26,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Gmail,Utilities,83.9,False,1.4,32,Other,8.28,2.09,4.14,Fair,High,5.61,5.08,No,Yes,0,14.509999999999998,3,0.8800000000000001
+Slack,Productivity,86.81,True,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Evernote,Productivity,61.86,True,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Slack,Productivity,87.33,True,1.5,63,Other,6.64,4.76,4.38,Excellent,Medium,8.75,0.12,Yes,No,0,15.779999999999998,2,1.33
+WhatsApp,Social,149.72,False,2.5,45,Other,1.81,5.54,3.52,Fair,Medium,6.59,3.66,No,No,1,10.87,2,0.3499999999999999
+Gmail,Utilities,59.43,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Facebook,Social,132.83,False,2.2,18,Male,3.26,5.59,4.21,Poor,Low,5.21,1.08,No,No,1,13.059999999999999,1,-0.18999999999999995
+Spotify,Entertainment,63.53,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Weather,Utilities,81.48,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Chrome,Utilities,73.61,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Google Docs,Productivity,105.9,True,1.8,63,Female,2.47,3.28,2.87,Good,High,4.08,0.84,Yes,Yes,0,8.620000000000001,3,0.20000000000000007
+Twitter,Social,94.19,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Snapchat,Social,60.32,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Google Maps,Utilities,79.6,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Twitter,Social,67.76,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Evernote,Productivity,117.82,True,2.0,48,Other,1.12,6.56,4.44,Good,Low,6.62,1.45,No,Yes,0,12.120000000000001,1,0.03000000000000025
+YouTube,Entertainment,204.18,False,3.4,19,Female,11.4,2.65,4.85,Excellent,Medium,4.56,3.31,No,No,1,18.9,2,0.6366666666666666
+Twitter,Social,74.06,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Gmail,Utilities,60.11,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Evernote,Productivity,88.73,True,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Snapchat,Social,65.85,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Twitch,Entertainment,71.18,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Slack,Productivity,115.19,True,1.9,18,Male,3.24,2.28,0.34,Good,Low,5.54,7.9,No,No,0,5.859999999999999,1,1.6300000000000001
+YouTube,Entertainment,140.01,False,2.3,45,Other,10.15,3.13,1.71,Good,High,7.83,8.87,Yes,No,1,14.990000000000002,3,1.175
+Spotify,Entertainment,120.05,False,2.0,22,Female,9.81,4.95,2.31,Good,High,8.31,4.99,Yes,No,1,17.07,3,0.8400000000000001
+WhatsApp,Social,72.59,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Twitch,Entertainment,71.17,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+YouTube,Entertainment,73.79,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Gmail,Utilities,108.1,False,1.8,32,Other,1.8,2.42,3.03,Fair,Low,5.12,9.17,Yes,No,0,7.25,1,1.35
+WhatsApp,Social,115.62,False,1.9,40,Female,11.8,4.62,2.01,Excellent,Medium,5.49,1.63,No,No,0,18.43,2,0.29000000000000004
+Chrome,Utilities,76.56,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+TikTok,Entertainment,79.68,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Google Docs,Productivity,87.42,True,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+WhatsApp,Social,165.37,False,2.8,26,Male,10.65,7.76,0.35,Fair,High,6.56,6.27,Yes,No,1,18.76,3,-0.30000000000000004
+Spotify,Entertainment,72.64,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Slack,Productivity,87.33,True,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Spotify,Entertainment,71.58,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Evernote,Productivity,69.26,True,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Notion,Productivity,212.87,True,3.5,60,Other,5.04,0.55,0.69,Poor,High,4.09,3.41,Yes,Yes,1,6.279999999999999,3,0.885
+Twitter,Social,94.19,False,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Twitch,Entertainment,71.49,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Facebook,Social,64.89,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Chrome,Utilities,115.36,False,1.9,29,Female,3.92,7.49,2.36,Excellent,High,7.25,7.0,No,Yes,0,13.77,3,-0.06000000000000005
+Gmail,Utilities,99.58,False,1.7,32,Female,3.43,5.88,4.84,Fair,Low,6.42,9.1,No,Yes,0,14.15,1,0.27
+Facebook,Social,88.87,False,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Google Maps,Utilities,71.93,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Evernote,Productivity,88.73,True,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Spotify,Entertainment,73.26,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+TikTok,Entertainment,85.98,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Chrome,Utilities,110.96,False,1.8,63,Female,2.47,3.28,2.87,Good,High,4.08,0.84,Yes,Yes,0,8.620000000000001,3,0.20000000000000007
+YouTube,Entertainment,175.32,False,2.9,33,Other,9.42,4.28,4.67,Excellent,Low,7.49,4.28,Yes,No,1,18.369999999999997,1,1.605
+Netflix,Entertainment,73.5,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Gmail,Utilities,72.25,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Spotify,Entertainment,107.48,False,1.8,33,Other,5.01,2.04,4.23,Poor,High,5.76,0.82,No,Yes,0,11.280000000000001,3,0.9299999999999999
+Twitter,Social,79.77,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Facebook,Social,89.68,False,1.5,34,Female,5.55,5.06,1.68,Good,High,8.88,2.37,Yes,No,0,12.29,3,0.9550000000000003
+Microsoft Teams,Productivity,66.59,True,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Evernote,Productivity,86.53,True,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+WhatsApp,Social,72.59,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Slack,Productivity,214.45,True,3.6,64,Other,3.72,3.77,2.73,Excellent,High,5.99,3.4,No,No,1,10.22,3,0.555
+Weather,Utilities,117.78,False,2.0,54,Other,1.94,1.61,1.88,Excellent,Low,5.92,4.47,Yes,Yes,0,5.43,1,2.155
+WhatsApp,Social,80.92,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Microsoft Teams,Productivity,115.65,True,1.9,18,Male,3.24,2.28,0.34,Good,Low,5.54,7.9,No,No,0,5.859999999999999,1,1.6300000000000001
+WhatsApp,Social,90.06,False,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Camera,Utilities,62.32,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+YouTube,Entertainment,75.48,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Spotify,Entertainment,85.37,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+WhatsApp,Social,136.67,False,2.3,32,Other,4.63,3.31,3.66,Fair,Low,6.98,5.32,No,Yes,1,11.6,1,1.8350000000000002
+Snapchat,Social,71.79,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Gmail,Utilities,60.27,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Snapchat,Social,142.66,False,2.4,42,Female,7.66,2.45,3.6,Fair,Medium,5.91,5.89,Yes,Yes,1,13.709999999999999,2,1.1533333333333333
+Twitch,Entertainment,72.76,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Twitter,Social,63.15,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Evernote,Productivity,96.67,True,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Slack,Productivity,107.99,True,1.8,63,Female,2.47,3.28,2.87,Good,High,4.08,0.84,Yes,Yes,0,8.620000000000001,3,0.20000000000000007
+Google Maps,Utilities,86.47,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Snapchat,Social,109.16,False,1.8,63,Female,2.47,3.28,2.87,Good,High,4.08,0.84,Yes,Yes,0,8.620000000000001,3,0.20000000000000007
+WhatsApp,Social,80.92,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Slack,Productivity,81.36,True,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+WhatsApp,Social,92.36,False,1.5,63,Other,6.64,4.76,4.38,Excellent,Medium,8.75,0.12,Yes,No,0,15.779999999999998,2,1.33
+Facebook,Social,70.61,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Gmail,Utilities,83.9,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Camera,Utilities,91.26,False,1.5,34,Female,5.55,5.06,1.68,Good,High,8.88,2.37,Yes,No,0,12.29,3,0.9550000000000003
+Spotify,Entertainment,67.17,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Snapchat,Social,64.38,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Google Docs,Productivity,87.42,True,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+YouTube,Entertainment,71.7,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Spotify,Entertainment,61.47,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Twitch,Entertainment,108.23,False,1.8,63,Female,2.47,3.28,2.87,Good,High,4.08,0.84,Yes,Yes,0,8.620000000000001,3,0.20000000000000007
+Twitch,Entertainment,60.42,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Spotify,Entertainment,90.01,False,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Weather,Utilities,113.89,False,1.9,29,Female,3.92,7.49,2.36,Excellent,High,7.25,7.0,No,Yes,0,13.77,3,-0.06000000000000005
+Slack,Productivity,120.59,True,2.0,40,Other,6.71,7.53,1.65,Excellent,Medium,7.31,3.2,Yes,Yes,1,15.89,2,-0.07333333333333354
+YouTube,Entertainment,76.02,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+TikTok,Entertainment,82.22,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Twitter,Social,74.26,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+YouTube,Entertainment,87.02,False,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Microsoft Teams,Productivity,70.86,True,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Camera,Utilities,93.37,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Camera,Utilities,89.53,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Google Maps,Utilities,75.7,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+WhatsApp,Social,115.62,False,1.9,25,Other,4.5,2.76,1.43,Fair,Low,4.5,5.83,Yes,Yes,0,8.69,1,0.8700000000000001
+Microsoft Teams,Productivity,69.48,True,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Notion,Productivity,69.13,True,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+YouTube,Entertainment,86.42,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Facebook,Social,70.61,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Twitter,Social,77.17,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+YouTube,Entertainment,73.77,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Spotify,Entertainment,71.58,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+YouTube,Entertainment,75.64,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+YouTube,Entertainment,87.02,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Spotify,Entertainment,72.64,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Twitch,Entertainment,72.76,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Google Docs,Productivity,106.11,True,1.8,19,Other,8.45,4.7,4.0,Excellent,High,5.49,5.51,No,Yes,0,17.15,3,0.1975
+Snapchat,Social,81.9,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Chrome,Utilities,114.29,False,1.9,56,Male,7.8,4.55,2.57,Good,High,5.09,5.85,Yes,No,0,14.92,3,0.135
+Twitch,Entertainment,73.4,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+YouTube,Entertainment,61.31,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Netflix,Entertainment,57.19,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Netflix,Entertainment,141.37,False,2.4,27,Female,4.89,6.33,1.31,Fair,High,8.45,0.79,Yes,Yes,1,12.53,3,0.5299999999999998
+Microsoft Teams,Productivity,175.2,True,2.9,62,Other,3.34,4.07,4.16,Fair,Medium,5.31,5.65,No,No,1,11.57,2,0.4133333333333331
+Spotify,Entertainment,87.66,False,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+Slack,Productivity,197.71,True,3.3,22,Male,1.41,5.74,4.21,Good,Medium,4.2,5.47,Yes,Yes,1,11.36,2,-0.5133333333333333
+Spotify,Entertainment,118.76,False,2.0,54,Other,1.94,1.61,1.88,Excellent,Low,5.92,4.47,Yes,Yes,0,5.43,1,2.155
+Google Docs,Productivity,154.46,True,2.6,52,Male,8.63,5.11,3.02,Fair,High,4.04,1.56,No,No,1,16.76,3,-0.26750000000000007
+WhatsApp,Social,165.37,False,2.8,56,Female,9.07,5.54,1.67,Poor,High,8.61,7.12,Yes,Yes,1,16.28,3,0.7674999999999998
+Chrome,Utilities,64.23,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+YouTube,Entertainment,86.42,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Weather,Utilities,113.89,False,1.9,46,Male,8.16,1.06,1.57,Fair,High,4.11,8.77,No,Yes,0,10.790000000000001,3,0.7625000000000001
+Slack,Productivity,107.99,True,1.8,41,Male,1.93,1.6,1.54,Fair,Low,5.59,1.91,Yes,Yes,0,5.07,1,1.9949999999999999
+YouTube,Entertainment,175.32,False,2.9,41,Male,4.68,5.26,0.84,Excellent,Medium,4.84,2.33,No,No,1,10.78,2,-0.13999999999999999
+WhatsApp,Social,149.72,False,2.5,25,Other,9.75,4.02,2.33,Good,Low,5.54,6.39,No,No,1,16.1,1,0.7600000000000002
+Evernote,Productivity,117.82,True,2.0,22,Female,9.81,4.95,2.31,Good,High,8.31,4.99,Yes,No,0,17.07,3,0.8400000000000001
+Instagram,Social,173.86,False,2.9,41,Male,4.68,5.26,0.84,Excellent,Medium,4.84,2.33,No,No,1,10.78,2,-0.13999999999999999
+YouTube,Entertainment,87.02,False,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Weather,Utilities,60.67,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Slack,Productivity,120.59,True,2.0,36,Male,7.51,7.24,0.83,Fair,Medium,5.85,4.75,Yes,Yes,1,15.58,2,-0.46333333333333354
+Microsoft Teams,Productivity,62.83,True,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Google Maps,Utilities,73.82,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Instagram,Social,71.74,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+TikTok,Entertainment,67.5,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Chrome,Utilities,114.29,False,1.9,46,Male,8.16,1.06,1.57,Fair,High,4.11,8.77,No,Yes,0,10.790000000000001,3,0.7625000000000001
+Evernote,Productivity,72.31,True,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Twitter,Social,81.39,False,1.4,32,Other,8.28,2.09,4.14,Fair,High,5.61,5.08,No,Yes,0,14.509999999999998,3,0.8800000000000001
+WhatsApp,Social,64.9,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Chrome,Utilities,95.09,False,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Snapchat,Social,124.05,False,2.1,19,Male,7.85,4.69,3.71,Good,Medium,5.55,4.55,Yes,No,1,16.25,2,0.28666666666666646
+Facebook,Social,70.61,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Facebook,Social,70.61,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Camera,Utilities,61.71,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Google Maps,Utilities,89.55,False,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+Instagram,Social,74.35,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Microsoft Teams,Productivity,122.04,True,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,1,15.25,1,3.205
+Twitch,Entertainment,94.94,False,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+Gmail,Utilities,59.44,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+YouTube,Entertainment,64.94,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Gmail,Utilities,133.09,False,2.2,18,Male,3.26,5.59,4.21,Poor,Low,5.21,1.08,No,No,1,13.059999999999999,1,-0.18999999999999995
+Facebook,Social,62.49,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Spotify,Entertainment,87.22,False,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Spotify,Entertainment,57.98,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Notion,Productivity,63.42,True,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+WhatsApp,Social,88.65,False,1.5,25,Male,4.86,1.7,0.76,Fair,Medium,6.72,5.26,No,Yes,0,7.32,2,1.6733333333333331
+Chrome,Utilities,71.41,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Chrome,Utilities,84.4,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Evernote,Productivity,59.15,True,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Microsoft Teams,Productivity,144.1,True,2.4,39,Male,1.28,4.94,2.87,Fair,Medium,8.15,6.09,No,No,1,9.09,2,1.07
+Camera,Utilities,73.66,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Google Maps,Utilities,63.36,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Facebook,Social,65.48,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Facebook,Social,64.16,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Twitter,Social,74.08,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Camera,Utilities,73.66,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Gmail,Utilities,79.44,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Twitter,Social,125.59,False,2.1,20,Male,3.95,7.84,1.57,Poor,Medium,6.44,3.03,No,Yes,1,13.36,2,-0.4666666666666665
+Spotify,Entertainment,87.66,False,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Spotify,Entertainment,97.21,False,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Microsoft Teams,Productivity,70.21,True,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Spotify,Entertainment,73.26,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+YouTube,Entertainment,58.6,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Microsoft Teams,Productivity,144.1,True,2.4,42,Female,7.66,2.45,3.6,Fair,Medium,5.91,5.89,Yes,Yes,1,13.709999999999999,2,1.1533333333333333
+YouTube,Entertainment,76.02,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Spotify,Entertainment,73.22,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Microsoft Teams,Productivity,69.48,True,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Snapchat,Social,84.67,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Twitch,Entertainment,73.4,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Evernote,Productivity,89.75,True,1.5,34,Female,5.55,5.06,1.68,Good,High,8.88,2.37,Yes,No,0,12.29,3,0.9550000000000003
+Weather,Utilities,81.48,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Notion,Productivity,112.84,True,1.9,29,Female,3.92,7.49,2.36,Excellent,High,7.25,7.0,No,Yes,0,13.77,3,-0.06000000000000005
+Spotify,Entertainment,59.64,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Instagram,Social,63.91,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Weather,Utilities,73.35,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+TikTok,Entertainment,97.36,False,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Slack,Productivity,58.38,True,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Instagram,Social,77.75,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Microsoft Teams,Productivity,95.2,True,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Slack,Productivity,73.02,True,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Evernote,Productivity,93.16,True,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Evernote,Productivity,82.88,True,1.4,32,Other,8.28,2.09,4.14,Fair,High,5.61,5.08,No,Yes,0,14.509999999999998,3,0.8800000000000001
+Twitter,Social,85.92,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Instagram,Social,134.14,False,2.2,26,Male,10.46,0.49,3.01,Excellent,High,5.54,6.5,No,Yes,1,13.96,3,1.2625
+Microsoft Teams,Productivity,116.23,True,1.9,40,Female,11.8,4.62,2.01,Excellent,Medium,5.49,1.63,No,No,0,18.43,2,0.29000000000000004
+Google Maps,Utilities,81.26,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Chrome,Utilities,166.24,False,2.8,20,Male,1.49,3.23,1.61,Poor,High,8.79,1.5,No,No,1,6.33,3,1.3899999999999997
+Google Maps,Utilities,71.93,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Snapchat,Social,138.82,False,2.3,32,Other,4.63,3.31,3.66,Fair,Low,6.98,5.32,No,Yes,1,11.6,1,1.8350000000000002
+Spotify,Entertainment,107.48,False,1.8,32,Other,1.8,2.42,3.03,Fair,Low,5.12,9.17,Yes,No,0,7.25,1,1.35
+Spotify,Entertainment,85.37,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Spotify,Entertainment,155.53,False,2.6,35,Female,11.96,0.76,4.46,Good,Medium,6.95,8.13,No,Yes,1,17.18,2,2.0633333333333335
+Camera,Utilities,67.35,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Facebook,Social,89.68,False,1.5,25,Male,4.86,1.7,0.76,Fair,Medium,6.72,5.26,No,Yes,0,7.32,2,1.6733333333333331
+WhatsApp,Social,61.69,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Notion,Productivity,182.79,True,3.0,59,Other,6.25,4.75,0.15,Poor,High,5.67,4.88,Yes,No,1,11.15,3,0.22999999999999998
+Evernote,Productivity,82.88,True,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Snapchat,Social,142.66,False,2.4,65,Other,1.49,0.21,3.89,Fair,Medium,8.67,0.7,Yes,No,1,5.59,2,2.82
+WhatsApp,Social,106.12,False,1.8,57,Other,3.84,1.28,1.78,Good,High,5.39,4.45,Yes,No,0,6.9,3,1.0274999999999999
+Chrome,Utilities,71.41,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+TikTok,Entertainment,88.24,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+TikTok,Entertainment,61.2,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Microsoft Teams,Productivity,82.08,True,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Microsoft Teams,Productivity,218.39,True,3.6,25,Female,9.3,1.88,1.01,Good,High,4.91,7.21,Yes,No,1,12.19,3,0.7575000000000001
+Twitch,Entertainment,71.18,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Notion,Productivity,95.97,True,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Twitter,Social,61.45,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Facebook,Social,70.61,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+WhatsApp,Social,64.29,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+WhatsApp,Social,149.72,False,2.5,38,Female,10.15,3.49,0.8,Excellent,Medium,5.67,5.2,No,No,1,14.440000000000001,2,0.7266666666666666
+Weather,Utilities,65.35,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+YouTube,Entertainment,59.4,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+YouTube,Entertainment,63.64,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Twitter,Social,70.29,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Twitter,Social,76.3,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Slack,Productivity,73.02,True,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Chrome,Utilities,88.22,False,1.5,63,Other,6.64,4.76,4.38,Excellent,Medium,8.75,0.12,Yes,No,0,15.779999999999998,2,1.33
+Microsoft Teams,Productivity,70.21,True,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+YouTube,Entertainment,71.42,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Weather,Utilities,73.35,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Instagram,Social,173.86,False,2.9,62,Other,3.34,4.07,4.16,Fair,Medium,5.31,5.65,No,No,1,11.57,2,0.4133333333333331
+Evernote,Productivity,69.26,True,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Google Docs,Productivity,90.26,True,1.5,38,Male,3.42,7.58,2.96,Fair,Medium,7.15,7.05,Yes,Yes,0,13.96,2,-0.14333333333333323
+YouTube,Entertainment,71.42,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Notion,Productivity,212.87,True,3.5,53,Female,1.22,6.56,1.65,Good,High,6.69,2.24,Yes,Yes,1,9.43,3,0.032500000000000195
+Twitter,Social,74.26,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Notion,Productivity,82.34,True,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Gmail,Utilities,69.05,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Evernote,Productivity,71.26,True,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Facebook,Social,131.26,False,2.2,55,Female,1.86,2.93,0.47,Good,Low,6.08,9.86,No,No,1,5.26,1,1.575
+Camera,Utilities,77.02,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+YouTube,Entertainment,94.55,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Chrome,Utilities,185.65,False,3.1,61,Male,11.01,0.57,4.22,Fair,High,7.94,4.58,Yes,Yes,1,15.8,3,1.8425
+Gmail,Utilities,97.46,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Twitter,Social,88.39,False,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+Microsoft Teams,Productivity,82.08,True,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Snapchat,Social,71.79,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Slack,Productivity,120.59,True,2.0,54,Other,1.94,1.61,1.88,Excellent,Low,5.92,4.47,Yes,Yes,1,5.43,1,2.155
+WhatsApp,Social,90.65,False,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+Notion,Productivity,69.13,True,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Evernote,Productivity,95.04,True,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+Camera,Utilities,91.26,False,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Gmail,Utilities,108.1,False,1.8,33,Other,5.01,2.04,4.23,Poor,High,5.76,0.82,No,Yes,0,11.280000000000001,3,0.9299999999999999
+Snapchat,Social,81.9,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Camera,Utilities,77.02,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+YouTube,Entertainment,138.13,False,2.3,45,Other,10.15,3.13,1.71,Good,High,7.83,8.87,Yes,No,1,14.990000000000002,3,1.175
+Microsoft Teams,Productivity,144.1,True,2.4,36,Male,6.24,6.76,2.71,Poor,Medium,5.28,1.93,No,Yes,1,15.71,2,-0.4933333333333332
+WhatsApp,Social,60.1,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Snapchat,Social,109.16,False,1.8,41,Male,1.93,1.6,1.54,Fair,Low,5.59,1.91,Yes,Yes,0,5.07,1,1.9949999999999999
+Twitter,Social,94.19,False,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Google Maps,Utilities,84.67,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Notion,Productivity,64.99,True,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Weather,Utilities,117.78,False,2.0,48,Other,1.12,6.56,4.44,Good,Low,6.62,1.45,No,Yes,0,12.120000000000001,1,0.03000000000000025
+YouTube,Entertainment,94.55,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Netflix,Entertainment,141.37,False,2.4,41,Male,7.92,1.98,3.25,Good,Medium,6.02,8.34,Yes,Yes,1,13.15,2,1.3466666666666665
+Camera,Utilities,69.77,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+TikTok,Entertainment,88.24,False,1.5,34,Female,5.55,5.06,1.68,Good,High,8.88,2.37,Yes,No,0,12.29,3,0.9550000000000003
+YouTube,Entertainment,86.04,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Snapchat,Social,110.47,False,1.8,19,Other,8.45,4.7,4.0,Excellent,High,5.49,5.51,No,Yes,0,17.15,3,0.1975
+Twitter,Social,85.92,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Google Docs,Productivity,97.83,True,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Weather,Utilities,107.5,False,1.8,32,Other,1.8,2.42,3.03,Fair,Low,5.12,9.17,Yes,No,0,7.25,1,1.35
+Google Docs,Productivity,97.83,True,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Chrome,Utilities,65.18,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+YouTube,Entertainment,71.42,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Facebook,Social,76.53,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Camera,Utilities,61.63,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Spotify,Entertainment,155.53,False,2.6,52,Male,8.63,5.11,3.02,Fair,High,4.04,1.56,No,No,1,16.76,3,-0.26750000000000007
+Camera,Utilities,61.71,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Slack,Productivity,120.59,True,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,1,15.25,1,3.205
+Twitter,Social,88.39,False,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Google Docs,Productivity,117.68,True,2.0,50,Female,7.6,1.71,4.1,Fair,Low,7.09,3.61,Yes,No,0,13.409999999999998,1,2.69
+YouTube,Entertainment,59.81,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Evernote,Productivity,71.26,True,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Gmail,Utilities,69.05,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Slack,Productivity,214.45,True,3.6,25,Other,6.35,2.21,0.21,Good,Low,6.36,0.21,No,Yes,1,8.77,1,2.075
+Microsoft Teams,Productivity,69.48,True,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Spotify,Entertainment,140.73,False,2.3,64,Male,6.95,5.03,4.53,Excellent,Medium,5.69,9.21,No,Yes,1,16.51,2,0.22000000000000006
+Spotify,Entertainment,64.69,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+YouTube,Entertainment,107.74,False,1.8,41,Male,1.68,6.02,0.39,Fair,High,5.08,6.39,Yes,No,0,8.09,3,-0.23499999999999988
+Weather,Utilities,117.78,False,2.0,36,Other,9.34,5.41,1.32,Good,High,7.28,6.72,Yes,No,0,16.07,3,0.4675
+Gmail,Utilities,163.03,False,2.7,57,Male,3.46,4.04,3.34,Poor,Low,8.31,8.09,Yes,No,1,10.84,1,2.1350000000000002
+Spotify,Entertainment,120.05,False,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,1,15.25,1,3.205
+WhatsApp,Social,95.78,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Facebook,Social,74.63,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Twitch,Entertainment,108.23,False,1.8,23,Female,7.46,0.31,1.19,Fair,High,8.29,1.89,No,Yes,0,8.959999999999999,3,1.9949999999999999
+Facebook,Social,70.61,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Spotify,Entertainment,140.73,False,2.3,45,Male,7.95,6.98,3.48,Excellent,Medium,7.07,4.98,Yes,No,1,18.41,2,0.029999999999999954
+Twitch,Entertainment,96.19,False,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Google Docs,Productivity,70.22,True,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Gmail,Utilities,86.93,False,1.4,32,Other,8.28,2.09,4.14,Fair,High,5.61,5.08,No,Yes,0,14.509999999999998,3,0.8800000000000001
+YouTube,Entertainment,107.74,False,1.8,57,Other,3.84,1.28,1.78,Good,High,5.39,4.45,Yes,No,0,6.9,3,1.0274999999999999
+Evernote,Productivity,89.75,True,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Twitch,Entertainment,166.04,False,2.8,20,Male,1.49,3.23,1.61,Poor,High,8.79,1.5,No,No,1,6.33,3,1.3899999999999997
+Slack,Productivity,120.03,True,2.0,46,Male,1.64,5.65,2.34,Excellent,High,4.44,2.17,Yes,Yes,1,9.629999999999999,3,-0.3025
+Chrome,Utilities,185.65,False,3.1,56,Male,1.96,7.28,0.68,Fair,Low,5.13,8.9,Yes,Yes,1,9.92,1,-1.0750000000000002
+Weather,Utilities,98.38,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Notion,Productivity,82.34,True,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+YouTube,Entertainment,73.79,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Facebook,Social,63.95,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Google Maps,Utilities,71.93,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Gmail,Utilities,105.96,False,1.8,57,Other,3.84,1.28,1.78,Good,High,5.39,4.45,Yes,No,0,6.9,3,1.0274999999999999
+Slack,Productivity,79.75,True,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Slack,Productivity,73.02,True,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Twitch,Entertainment,103.87,False,1.7,32,Female,3.43,5.88,4.84,Fair,Low,6.42,9.1,No,Yes,0,14.15,1,0.27
+WhatsApp,Social,63.44,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Gmail,Utilities,86.93,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Chrome,Utilities,66.26,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Google Docs,Productivity,90.26,True,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Weather,Utilities,83.34,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Chrome,Utilities,185.65,False,3.1,60,Other,8.23,7.33,0.84,Excellent,Medium,7.63,1.98,No,Yes,1,16.400000000000002,2,0.09999999999999994
+Chrome,Utilities,88.22,False,1.5,38,Male,3.42,7.58,2.96,Fair,Medium,7.15,7.05,Yes,Yes,0,13.96,2,-0.14333333333333323
+Google Docs,Productivity,70.22,True,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+TikTok,Entertainment,119.72,False,2.0,50,Female,7.6,1.71,4.1,Fair,Low,7.09,3.61,Yes,No,0,13.409999999999998,1,2.69
+Netflix,Entertainment,64.7,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Notion,Productivity,156.0,True,2.6,32,Female,3.12,5.77,2.02,Good,High,7.23,5.58,Yes,Yes,1,10.91,3,0.3650000000000002
+Camera,Utilities,112.81,False,1.9,20,Other,2.95,2.98,3.49,Good,High,5.07,2.79,Yes,Yes,0,9.42,3,0.5225000000000001
+Slack,Productivity,120.03,True,2.0,48,Other,1.12,6.56,4.44,Good,Low,6.62,1.45,No,Yes,1,12.120000000000001,1,0.03000000000000025
+WhatsApp,Social,95.13,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Slack,Productivity,107.99,True,1.8,57,Other,3.84,1.28,1.78,Good,High,5.39,4.45,Yes,No,0,6.9,3,1.0274999999999999
+Netflix,Entertainment,65.05,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+YouTube,Entertainment,63.64,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Twitch,Entertainment,108.23,False,1.8,33,Other,5.01,2.04,4.23,Poor,High,5.76,0.82,No,Yes,0,11.280000000000001,3,0.9299999999999999
+Chrome,Utilities,115.36,False,1.9,46,Male,8.16,1.06,1.57,Fair,High,4.11,8.77,No,Yes,0,10.790000000000001,3,0.7625000000000001
+Snapchat,Social,84.97,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Notion,Productivity,156.0,True,2.6,41,Male,10.47,3.11,1.33,Fair,Medium,5.57,2.21,No,Yes,1,14.91,2,0.8200000000000002
+Google Docs,Productivity,87.42,True,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Instagram,Social,71.74,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Microsoft Teams,Productivity,70.21,True,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Facebook,Social,131.26,False,2.2,23,Male,8.61,5.01,3.38,Excellent,High,6.48,6.97,Yes,No,1,17.0,3,0.36750000000000016
+Netflix,Entertainment,141.37,False,2.4,36,Male,6.24,6.76,2.71,Poor,Medium,5.28,1.93,No,Yes,1,15.71,2,-0.4933333333333332
+Google Maps,Utilities,79.6,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Slack,Productivity,87.32,True,1.5,34,Female,5.55,5.06,1.68,Good,High,8.88,2.37,Yes,No,0,12.29,3,0.9550000000000003
+Microsoft Teams,Productivity,58.55,True,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Camera,Utilities,69.77,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+TikTok,Entertainment,119.78,False,2.0,22,Female,9.81,4.95,2.31,Good,High,8.31,4.99,Yes,No,0,17.07,3,0.8400000000000001
+Notion,Productivity,97.83,True,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Notion,Productivity,215.94,True,3.6,25,Other,6.35,2.21,0.21,Good,Low,6.36,0.21,No,Yes,1,8.77,1,2.075
+WhatsApp,Social,95.03,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+TikTok,Entertainment,119.72,False,2.0,54,Other,1.94,1.61,1.88,Excellent,Low,5.92,4.47,Yes,Yes,0,5.43,1,2.155
+Twitter,Social,74.08,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Weather,Utilities,61.15,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Instagram,Social,83.02,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Microsoft Teams,Productivity,69.48,True,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Chrome,Utilities,166.24,False,2.8,26,Male,10.65,7.76,0.35,Fair,High,6.56,6.27,Yes,No,1,18.76,3,-0.30000000000000004
+YouTube,Entertainment,71.7,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Slack,Productivity,115.19,True,1.9,25,Other,4.5,2.76,1.43,Fair,Low,4.5,5.83,Yes,Yes,0,8.69,1,0.8700000000000001
+Microsoft Teams,Productivity,70.21,True,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Netflix,Entertainment,141.37,False,2.4,21,Male,1.7,1.72,2.59,Fair,Medium,6.51,1.84,No,Yes,1,6.01,2,1.5966666666666667
+TikTok,Entertainment,61.58,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Weather,Utilities,83.34,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Spotify,Entertainment,73.22,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+Facebook,Social,124.84,False,2.1,20,Male,3.95,7.84,1.57,Poor,Medium,6.44,3.03,No,Yes,1,13.36,2,-0.4666666666666665
+Chrome,Utilities,76.56,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Google Maps,Utilities,75.61,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Snapchat,Social,142.66,False,2.4,39,Male,1.28,4.94,2.87,Fair,Medium,8.15,6.09,No,No,1,9.09,2,1.07
+Twitter,Social,141.65,False,2.4,26,Other,8.81,4.5,2.64,Poor,Medium,6.94,7.5,No,Yes,1,15.950000000000001,2,0.8133333333333335
+YouTube,Entertainment,107.74,False,1.8,32,Other,1.8,2.42,3.03,Fair,Low,5.12,9.17,Yes,No,0,7.25,1,1.35
+WhatsApp,Social,72.59,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Notion,Productivity,182.79,True,3.0,21,Other,10.01,2.28,3.41,Poor,Low,6.75,3.38,No,Yes,1,15.7,1,2.2350000000000003
+Twitch,Entertainment,71.49,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Notion,Productivity,64.99,True,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Netflix,Entertainment,141.37,False,2.4,32,Male,2.37,0.53,4.41,Poor,Medium,4.2,2.76,No,No,1,7.3100000000000005,2,1.2233333333333334
+Notion,Productivity,94.33,True,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Twitter,Social,81.39,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Twitch,Entertainment,71.17,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Microsoft Teams,Productivity,122.04,True,2.0,54,Other,1.94,1.61,1.88,Excellent,Low,5.92,4.47,Yes,Yes,1,5.43,1,2.155
+Chrome,Utilities,66.26,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Instagram,Social,209.48,False,3.5,60,Other,5.04,0.55,0.69,Poor,High,4.09,3.41,Yes,Yes,1,6.279999999999999,3,0.885
+Google Maps,Utilities,73.82,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+YouTube,Entertainment,86.04,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Facebook,Social,74.63,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Google Maps,Utilities,63.36,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Notion,Productivity,156.0,True,2.6,39,Female,3.64,1.19,3.16,Fair,High,4.06,4.22,Yes,No,1,7.99,3,0.7174999999999999
+Google Maps,Utilities,86.47,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Twitch,Entertainment,71.18,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Gmail,Utilities,79.44,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+YouTube,Entertainment,73.77,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Evernote,Productivity,104.27,True,1.7,32,Female,3.43,5.88,4.84,Fair,Low,6.42,9.1,No,Yes,0,14.15,1,0.27
+Twitch,Entertainment,71.35,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Microsoft Teams,Productivity,88.12,True,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Twitter,Social,85.92,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Slack,Productivity,107.99,True,1.8,41,Male,1.68,6.02,0.39,Fair,High,5.08,6.39,Yes,No,0,8.09,3,-0.23499999999999988
+Chrome,Utilities,65.18,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+YouTube,Entertainment,73.79,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Weather,Utilities,113.89,False,1.9,40,Female,11.8,4.62,2.01,Excellent,Medium,5.49,1.63,No,No,0,18.43,2,0.29000000000000004
+Google Maps,Utilities,75.98,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+WhatsApp,Social,114.58,False,1.9,27,Other,4.77,7.2,3.25,Fair,Medium,6.57,5.77,No,No,0,15.219999999999999,2,-0.20999999999999996
+Weather,Utilities,78.02,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Snapchat,Social,81.9,False,1.4,32,Other,8.28,2.09,4.14,Fair,High,5.61,5.08,No,Yes,0,14.509999999999998,3,0.8800000000000001
+Evernote,Productivity,71.26,True,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+TikTok,Entertainment,61.2,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Netflix,Entertainment,73.84,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Snapchat,Social,60.32,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Notion,Productivity,156.0,True,2.6,52,Male,8.63,5.11,3.02,Fair,High,4.04,1.56,No,No,1,16.76,3,-0.26750000000000007
+Twitch,Entertainment,93.6,False,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Twitter,Social,139.43,False,2.3,57,Other,10.16,1.04,3.98,Excellent,High,8.9,0.1,No,Yes,1,15.18,3,1.965
+YouTube,Entertainment,175.32,False,2.9,59,Male,6.04,5.16,3.82,Poor,Low,6.66,4.41,No,Yes,1,15.02,1,0.75
+Twitter,Social,139.43,False,2.3,58,Other,11.83,6.58,3.41,Poor,Medium,6.37,7.74,No,Yes,1,21.82,2,-0.06999999999999999
+Snapchat,Social,84.97,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Facebook,Social,64.16,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Evernote,Productivity,59.19,True,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Microsoft Teams,Productivity,107.65,True,1.8,41,Male,1.93,1.6,1.54,Fair,Low,5.59,1.91,Yes,Yes,0,5.07,1,1.9949999999999999
+Google Docs,Productivity,70.22,True,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Google Maps,Utilities,75.61,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Netflix,Entertainment,176.98,False,2.9,59,Male,6.04,5.16,3.82,Poor,Low,6.66,4.41,No,Yes,1,15.02,1,0.75
+Google Maps,Utilities,85.0,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Microsoft Teams,Productivity,70.86,True,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Google Docs,Productivity,105.9,True,1.8,23,Female,7.46,0.31,1.19,Fair,High,8.29,1.89,No,Yes,0,8.959999999999999,3,1.9949999999999999
+Spotify,Entertainment,71.58,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Spotify,Entertainment,67.17,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Chrome,Utilities,185.65,False,3.1,61,Male,8.93,6.77,4.51,Excellent,Low,7.59,1.8,No,No,1,20.21,1,0.41000000000000014
+Microsoft Teams,Productivity,88.12,True,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Snapchat,Social,59.13,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Instagram,Social,74.35,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Slack,Productivity,63.85,True,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Instagram,Social,68.73,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+WhatsApp,Social,64.9,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Instagram,Social,134.14,False,2.2,38,Female,10.62,3.92,0.55,Poor,Medium,6.42,9.8,No,Yes,1,15.09,2,0.8333333333333334
+Spotify,Entertainment,107.48,False,1.8,41,Male,1.93,1.6,1.54,Fair,Low,5.59,1.91,Yes,Yes,0,5.07,1,1.9949999999999999
+Microsoft Teams,Productivity,59.59,True,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Twitch,Entertainment,93.6,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Spotify,Entertainment,105.05,False,1.8,33,Other,5.01,2.04,4.23,Poor,High,5.76,0.82,No,Yes,0,11.280000000000001,3,0.9299999999999999
+Notion,Productivity,76.11,True,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Snapchat,Social,84.67,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Evernote,Productivity,86.53,True,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Google Maps,Utilities,62.96,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+WhatsApp,Social,90.06,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Google Maps,Utilities,71.93,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Twitch,Entertainment,73.4,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Facebook,Social,78.08,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Chrome,Utilities,98.87,False,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Twitter,Social,74.26,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Gmail,Utilities,75.79,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Facebook,Social,59.22,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+WhatsApp,Social,149.72,False,2.5,44,Male,1.95,5.59,3.46,Good,Medium,6.03,6.14,No,No,1,11.0,2,0.1466666666666668
+Gmail,Utilities,105.96,False,1.8,41,Male,1.93,1.6,1.54,Fair,Low,5.59,1.91,Yes,Yes,0,5.07,1,1.9949999999999999
+Snapchat,Social,142.66,False,2.4,41,Male,7.92,1.98,3.25,Good,Medium,6.02,8.34,Yes,Yes,1,13.15,2,1.3466666666666665
+Twitter,Social,74.08,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Microsoft Teams,Productivity,107.65,True,1.8,23,Female,7.46,0.31,1.19,Fair,High,8.29,1.89,No,Yes,0,8.959999999999999,3,1.9949999999999999
+Netflix,Entertainment,73.5,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Slack,Productivity,87.32,True,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+Gmail,Utilities,105.96,False,1.8,63,Female,2.47,3.28,2.87,Good,High,4.08,0.84,Yes,Yes,0,8.620000000000001,3,0.20000000000000007
+Netflix,Entertainment,141.37,False,2.4,39,Male,1.28,4.94,2.87,Fair,Medium,8.15,6.09,No,No,1,9.09,2,1.07
+Spotify,Entertainment,120.05,False,2.0,46,Male,1.64,5.65,2.34,Excellent,High,4.44,2.17,Yes,Yes,1,9.629999999999999,3,-0.3025
+Netflix,Entertainment,73.84,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Notion,Productivity,182.79,True,3.0,48,Other,5.34,7.57,4.02,Excellent,Medium,6.14,6.27,Yes,No,1,16.93,2,-0.47666666666666685
+Twitter,Social,65.92,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Spotify,Entertainment,73.59,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+YouTube,Entertainment,76.02,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Netflix,Entertainment,176.98,False,2.9,62,Other,3.34,4.07,4.16,Fair,Medium,5.31,5.65,No,No,1,11.57,2,0.4133333333333331
+Netflix,Entertainment,95.47,False,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+TikTok,Entertainment,119.78,False,2.0,36,Other,9.34,5.41,1.32,Good,High,7.28,6.72,Yes,No,0,16.07,3,0.4675
+Twitter,Social,70.58,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+YouTube,Entertainment,86.04,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Google Docs,Productivity,105.9,True,1.8,41,Male,1.93,1.6,1.54,Fair,Low,5.59,1.91,Yes,Yes,0,5.07,1,1.9949999999999999
+Weather,Utilities,65.35,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Twitter,Social,81.39,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Gmail,Utilities,72.25,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Gmail,Utilities,70.76,False,1.2,47,Female,11.46,4.81,4.68,Fair,Medium,6.43,7.89,No,Yes,0,20.95,2,0.54
+Snapchat,Social,110.47,False,1.8,57,Other,3.84,1.28,1.78,Good,High,5.39,4.45,Yes,No,0,6.9,3,1.0274999999999999
+Weather,Utilities,107.5,False,1.8,19,Other,8.45,4.7,4.0,Excellent,High,5.49,5.51,No,Yes,0,17.15,3,0.1975
+Spotify,Entertainment,87.22,False,1.5,34,Female,5.55,5.06,1.68,Good,High,8.88,2.37,Yes,No,0,12.29,3,0.9550000000000003
+Slack,Productivity,209.63,True,3.5,40,Male,3.33,3.15,2.75,Good,High,4.38,3.95,No,Yes,1,9.23,3,0.3075
+Instagram,Social,173.86,False,2.9,59,Male,6.04,5.16,3.82,Poor,Low,6.66,4.41,No,Yes,1,15.02,1,0.75
+Twitch,Entertainment,71.18,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Gmail,Utilities,105.96,False,1.8,41,Male,1.68,6.02,0.39,Fair,High,5.08,6.39,Yes,No,0,8.09,3,-0.23499999999999988
+Snapchat,Social,93.72,False,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Spotify,Entertainment,97.21,False,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Twitter,Social,81.39,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Facebook,Social,70.61,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+TikTok,Entertainment,79.49,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Weather,Utilities,78.64,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Snapchat,Social,97.22,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Weather,Utilities,62.69,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Microsoft Teams,Productivity,116.23,True,1.9,56,Male,7.8,4.55,2.57,Good,High,5.09,5.85,Yes,No,0,14.92,3,0.135
+Camera,Utilities,127.04,False,2.1,19,Male,7.85,4.69,3.71,Good,Medium,5.55,4.55,Yes,No,1,16.25,2,0.28666666666666646
+Google Maps,Utilities,71.93,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Notion,Productivity,69.13,True,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Evernote,Productivity,117.82,True,2.0,40,Other,6.71,7.53,1.65,Excellent,Medium,7.31,3.2,Yes,Yes,0,15.89,2,-0.07333333333333354
+Google Maps,Utilities,81.26,False,1.4,32,Other,8.28,2.09,4.14,Fair,High,5.61,5.08,No,Yes,0,14.509999999999998,3,0.8800000000000001
+WhatsApp,Social,66.35,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+WhatsApp,Social,114.58,False,1.9,29,Female,3.92,7.49,2.36,Excellent,High,7.25,7.0,No,Yes,0,13.77,3,-0.06000000000000005
+YouTube,Entertainment,138.13,False,2.3,24,Male,9.2,4.53,2.78,Good,Medium,7.66,1.43,No,Yes,1,16.51,2,1.0433333333333332
+Google Docs,Productivity,95.2,True,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Snapchat,Social,142.66,False,2.4,26,Other,8.81,4.5,2.64,Poor,Medium,6.94,7.5,No,Yes,1,15.950000000000001,2,0.8133333333333335
+Instagram,Social,76.82,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Slack,Productivity,120.03,True,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,1,15.25,1,3.205
+Camera,Utilities,57.35,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Google Maps,Utilities,73.82,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+TikTok,Entertainment,82.22,False,1.4,32,Other,8.28,2.09,4.14,Fair,High,5.61,5.08,No,Yes,0,14.509999999999998,3,0.8800000000000001
+Evernote,Productivity,71.26,True,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Twitch,Entertainment,72.76,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Weather,Utilities,93.67,False,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+WhatsApp,Social,60.1,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Microsoft Teams,Productivity,70.21,True,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Snapchat,Social,91.04,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Facebook,Social,131.26,False,2.2,38,Female,10.62,3.92,0.55,Poor,Medium,6.42,9.8,No,Yes,1,15.09,2,0.8333333333333334
+Snapchat,Social,78.62,False,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Microsoft Teams,Productivity,58.11,True,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+Google Docs,Productivity,105.9,True,1.8,57,Other,3.84,1.28,1.78,Good,High,5.39,4.45,Yes,No,0,6.9,3,1.0274999999999999
+Twitch,Entertainment,127.93,False,2.1,25,Other,1.17,5.97,2.69,Excellent,Low,4.75,7.49,Yes,No,1,9.83,1,-0.6099999999999999
+Netflix,Entertainment,140.76,False,2.3,57,Other,10.16,1.04,3.98,Excellent,High,8.9,0.1,No,Yes,1,15.18,3,1.965
+Gmail,Utilities,59.43,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+YouTube,Entertainment,71.42,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Snapchat,Social,91.04,False,1.5,25,Male,4.86,1.7,0.76,Fair,Medium,6.72,5.26,No,Yes,0,7.32,2,1.6733333333333331
+Instagram,Social,134.14,False,2.2,23,Male,8.61,5.01,3.38,Excellent,High,6.48,6.97,Yes,No,1,17.0,3,0.36750000000000016
+Camera,Utilities,69.77,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Notion,Productivity,76.11,True,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+WhatsApp,Social,165.37,False,2.8,20,Male,1.49,3.23,1.61,Poor,High,8.79,1.5,No,No,1,6.33,3,1.3899999999999997
+Spotify,Entertainment,73.26,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Twitch,Entertainment,127.93,False,2.1,26,Other,9.08,3.38,3.72,Fair,High,4.7,8.1,Yes,No,1,16.18,3,0.33000000000000007
+WhatsApp,Social,149.72,False,2.5,37,Other,3.97,3.19,4.85,Fair,Low,8.98,5.34,Yes,Yes,1,12.01,1,2.8950000000000005
+YouTube,Entertainment,140.01,False,2.3,32,Other,9.63,3.18,2.4,Fair,Low,4.61,3.95,No,No,1,15.21,1,0.7150000000000001
+Gmail,Utilities,105.96,False,1.8,32,Other,1.8,2.42,3.03,Fair,Low,5.12,9.17,Yes,No,0,7.25,1,1.35
+Microsoft Teams,Productivity,115.65,True,1.9,29,Female,3.92,7.49,2.36,Excellent,High,7.25,7.0,No,Yes,0,13.77,3,-0.06000000000000005
+YouTube,Entertainment,86.42,False,1.4,32,Other,8.28,2.09,4.14,Fair,High,5.61,5.08,No,Yes,0,14.509999999999998,3,0.8800000000000001
+YouTube,Entertainment,67.04,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Twitter,Social,102.75,False,1.7,32,Female,3.43,5.88,4.84,Fair,Low,6.42,9.1,No,Yes,0,14.15,1,0.27
+Spotify,Entertainment,87.66,False,1.5,38,Male,3.42,7.58,2.96,Fair,Medium,7.15,7.05,Yes,Yes,0,13.96,2,-0.14333333333333323
+Microsoft Teams,Productivity,70.86,True,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Twitter,Social,74.08,False,1.2,29,Other,6.22,1.81,3.1,Excellent,Low,4.59,1.38,No,Yes,0,11.129999999999999,1,1.39
+TikTok,Entertainment,98.93,False,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+Twitch,Entertainment,101.72,False,1.7,32,Female,3.43,5.88,4.84,Fair,Low,6.42,9.1,No,Yes,0,14.15,1,0.27
+Twitch,Entertainment,94.94,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Facebook,Social,74.63,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Snapchat,Social,80.98,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Google Docs,Productivity,87.42,True,1.5,63,Other,6.64,4.76,4.38,Excellent,Medium,8.75,0.12,Yes,No,0,15.779999999999998,2,1.33
+Google Maps,Utilities,83.22,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Microsoft Teams,Productivity,116.23,True,1.9,42,Male,3.18,5.37,2.17,Good,Medium,5.87,2.96,No,Yes,0,10.72,2,0.16666666666666666
+WhatsApp,Social,66.35,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Evernote,Productivity,71.26,True,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Twitter,Social,70.58,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Snapchat,Social,91.22,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Twitter,Social,67.76,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+TikTok,Entertainment,63.45,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Chrome,Utilities,58.31,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Microsoft Teams,Productivity,95.2,True,1.6,26,Other,10.79,4.65,0.78,Fair,Medium,6.9,6.89,Yes,Yes,0,16.22,2,0.75
+Instagram,Social,71.74,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Twitch,Entertainment,66.58,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Facebook,Social,124.84,False,2.1,25,Other,1.17,5.97,2.69,Excellent,Low,4.75,7.49,Yes,No,1,9.83,1,-0.6099999999999999
+Gmail,Utilities,79.44,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Camera,Utilities,93.37,False,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+Weather,Utilities,117.78,False,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,0,15.25,1,3.205
+YouTube,Entertainment,87.02,False,1.5,38,Male,3.42,7.58,2.96,Fair,Medium,7.15,7.05,Yes,Yes,0,13.96,2,-0.14333333333333323
+Microsoft Teams,Productivity,67.2,True,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+WhatsApp,Social,136.67,False,2.3,24,Male,9.2,4.53,2.78,Good,Medium,7.66,1.43,No,Yes,1,16.51,2,1.0433333333333332
+Google Maps,Utilities,73.82,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Notion,Productivity,82.34,True,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+YouTube,Entertainment,68.7,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Evernote,Productivity,81.96,True,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Notion,Productivity,212.87,True,3.5,39,Male,6.36,1.29,0.61,Poor,High,8.17,5.31,Yes,No,1,8.26,3,1.72
+Evernote,Productivity,61.86,True,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Snapchat,Social,57.56,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Evernote,Productivity,89.75,True,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Evernote,Productivity,72.31,True,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Slack,Productivity,81.21,True,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Evernote,Productivity,67.1,True,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Google Maps,Utilities,66.52,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Facebook,Social,124.84,False,2.1,24,Other,8.01,2.53,4.05,Poor,High,5.24,7.38,No,Yes,1,14.59,3,0.6775000000000001
+WhatsApp,Social,68.82,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Google Docs,Productivity,76.96,True,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Spotify,Entertainment,118.76,False,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,0,15.25,1,3.205
+WhatsApp,Social,64.9,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Weather,Utilities,126.65,False,2.1,63,Male,2.15,0.8,4.2,Excellent,Low,8.24,2.34,Yes,No,1,7.15,1,3.72
+Twitch,Entertainment,64.76,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+YouTube,Entertainment,80.49,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+WhatsApp,Social,92.36,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Google Maps,Utilities,126.7,False,2.1,25,Other,1.17,5.97,2.69,Excellent,Low,4.75,7.49,Yes,No,1,9.83,1,-0.6099999999999999
+Twitter,Social,94.19,False,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+Google Maps,Utilities,71.93,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Google Docs,Productivity,117.68,True,2.0,40,Other,6.71,7.53,1.65,Excellent,Medium,7.31,3.2,Yes,Yes,0,15.89,2,-0.07333333333333354
+YouTube,Entertainment,71.7,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Chrome,Utilities,114.29,False,1.9,27,Other,4.77,7.2,3.25,Fair,Medium,6.57,5.77,No,No,0,15.219999999999999,2,-0.20999999999999996
+WhatsApp,Social,91.61,False,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+Spotify,Entertainment,87.66,False,1.5,63,Other,6.64,4.76,4.38,Excellent,Medium,8.75,0.12,Yes,No,0,15.779999999999998,2,1.33
+Microsoft Teams,Productivity,115.65,True,1.9,20,Other,2.95,2.98,3.49,Good,High,5.07,2.79,Yes,Yes,0,9.42,3,0.5225000000000001
+Slack,Productivity,209.63,True,3.5,41,Male,7.59,5.1,0.44,Poor,Medium,5.29,4.5,No,Yes,1,13.129999999999999,2,0.06333333333333346
+Gmail,Utilities,105.96,False,1.8,33,Other,5.01,2.04,4.23,Poor,High,5.76,0.82,No,Yes,0,11.280000000000001,3,0.9299999999999999
+Camera,Utilities,62.32,False,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Google Docs,Productivity,59.53,True,1.0,22,Male,8.31,0.93,1.51,Fair,Low,4.66,4.93,No,No,0,10.75,1,1.865
+Twitch,Entertainment,166.04,False,2.8,36,Male,9.96,7.38,0.78,Excellent,Low,5.98,3.61,No,No,1,18.12,1,-0.6999999999999997
+Microsoft Teams,Productivity,67.2,True,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Camera,Utilities,91.26,False,1.5,48,Female,2.88,5.71,2.52,Fair,Medium,8.36,2.74,No,No,0,11.11,2,0.8833333333333332
+Evernote,Productivity,88.73,True,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+Google Docs,Productivity,76.96,True,1.3,19,Other,4.55,1.6,0.77,Good,High,6.82,5.39,Yes,No,0,6.92,3,1.3050000000000002
+Netflix,Entertainment,65.05,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Weather,Utilities,65.35,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Twitch,Entertainment,71.35,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Netflix,Entertainment,169.8,False,2.8,36,Male,9.96,7.38,0.78,Excellent,Low,5.98,3.61,No,No,1,18.12,1,-0.6999999999999997
+YouTube,Entertainment,140.01,False,2.3,58,Other,11.83,6.58,3.41,Poor,Medium,6.37,7.74,No,Yes,1,21.82,2,-0.06999999999999999
+Microsoft Teams,Productivity,116.23,True,1.9,27,Other,4.77,7.2,3.25,Fair,Medium,6.57,5.77,No,No,0,15.219999999999999,2,-0.20999999999999996
+WhatsApp,Social,95.13,False,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Gmail,Utilities,133.09,False,2.2,23,Male,8.61,5.01,3.38,Excellent,High,6.48,6.97,Yes,No,1,17.0,3,0.36750000000000016
+Google Docs,Productivity,87.52,True,1.5,63,Other,6.64,4.76,4.38,Excellent,Medium,8.75,0.12,Yes,No,0,15.779999999999998,2,1.33
+YouTube,Entertainment,175.32,False,2.9,62,Other,3.34,4.07,4.16,Fair,Medium,5.31,5.65,No,No,1,11.57,2,0.4133333333333331
+Twitter,Social,141.65,False,2.4,39,Female,4.53,3.21,3.15,Poor,Low,4.08,9.41,No,No,1,10.89,1,0.43500000000000005
+Google Maps,Utilities,93.79,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Evernote,Productivity,117.82,True,2.0,36,Other,9.34,5.41,1.32,Good,High,7.28,6.72,Yes,No,0,16.07,3,0.4675
+Spotify,Entertainment,71.58,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Instagram,Social,68.73,False,1.1,43,Female,4.87,2.63,1.73,Excellent,Medium,7.01,5.35,No,No,0,9.23,2,1.46
+Facebook,Social,65.48,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Camera,Utilities,78.58,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Twitch,Entertainment,120.14,False,2.0,50,Female,7.6,1.71,4.1,Fair,Low,7.09,3.61,Yes,No,1,13.409999999999998,1,2.69
+Instagram,Social,83.02,False,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Slack,Productivity,81.21,True,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+YouTube,Entertainment,73.79,False,1.2,38,Female,3.06,0.82,2.76,Excellent,Low,4.41,8.6,No,Yes,0,6.64,1,1.7950000000000002
+Snapchat,Social,84.67,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+Facebook,Social,74.63,False,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Gmail,Utilities,59.44,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Google Maps,Utilities,75.71,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Weather,Utilities,78.64,False,1.3,55,Female,1.84,5.98,3.14,Good,High,4.36,4.52,Yes,No,0,10.96,3,-0.405
+Spotify,Entertainment,97.21,False,1.6,48,Male,4.96,2.69,1.34,Fair,High,8.46,0.55,Yes,Yes,0,8.99,3,1.4425000000000003
+Google Docs,Productivity,154.46,True,2.6,21,Female,5.72,2.54,0.68,Excellent,High,5.7,3.54,No,Yes,1,8.94,3,0.79
+Snapchat,Social,91.22,False,1.5,63,Other,6.64,4.76,4.38,Excellent,Medium,8.75,0.12,Yes,No,0,15.779999999999998,2,1.33
+Facebook,Social,88.87,False,1.5,63,Other,6.64,4.76,4.38,Excellent,Medium,8.75,0.12,Yes,No,0,15.779999999999998,2,1.33
+WhatsApp,Social,92.36,False,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+WhatsApp,Social,90.65,False,1.5,45,Female,8.33,4.66,1.79,Fair,Low,4.6,2.02,No,Yes,0,14.780000000000001,1,-0.03000000000000025
+Twitter,Social,57.72,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Google Maps,Utilities,86.47,False,1.4,62,Other,1.2,1.67,1.57,Excellent,High,7.29,9.64,Yes,No,0,4.44,3,1.405
+Google Docs,Productivity,87.52,True,1.5,38,Male,3.42,7.58,2.96,Fair,Medium,7.15,7.05,Yes,Yes,0,13.96,2,-0.14333333333333323
+Weather,Utilities,120.06,False,2.0,36,Other,9.34,5.41,1.32,Good,High,7.28,6.72,Yes,No,1,16.07,3,0.4675
+Snapchat,Social,71.79,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Chrome,Utilities,115.36,False,1.9,33,Other,7.3,7.59,1.86,Excellent,Medium,8.65,1.48,No,No,0,16.75,2,0.3533333333333335
+Microsoft Teams,Productivity,62.83,True,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Weather,Utilities,120.06,False,2.0,34,Female,10.47,0.94,3.84,Good,Low,7.35,5.57,No,No,1,15.25,1,3.205
+Facebook,Social,124.84,False,2.1,21,Male,7.93,5.42,4.0,Fair,Low,4.79,4.07,Yes,No,1,17.35,1,-0.31499999999999995
+Instagram,Social,209.48,False,3.5,41,Male,7.59,5.1,0.44,Poor,Medium,5.29,4.5,No,Yes,1,13.129999999999999,2,0.06333333333333346
+Instagram,Social,77.75,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Camera,Utilities,58.75,False,1.0,47,Male,2.41,4.09,4.39,Poor,Medium,6.21,0.33,Yes,No,0,10.89,2,0.7066666666666667
+YouTube,Entertainment,87.02,False,1.5,34,Female,5.55,5.06,1.68,Good,High,8.88,2.37,Yes,No,0,12.29,3,0.9550000000000003
+Google Maps,Utilities,93.79,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+Microsoft Teams,Productivity,122.04,True,2.0,50,Female,7.6,1.71,4.1,Fair,Low,7.09,3.61,Yes,No,1,13.409999999999998,1,2.69
+Evernote,Productivity,72.31,True,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Twitch,Entertainment,72.76,False,1.2,50,Male,1.11,6.67,3.68,Good,Low,4.61,8.16,No,Yes,0,11.46,1,-1.0299999999999998
+Gmail,Utilities,72.25,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Snapchat,Social,138.82,False,2.3,58,Other,11.83,6.58,3.41,Poor,Medium,6.37,7.74,No,Yes,1,21.82,2,-0.06999999999999999
+Twitch,Entertainment,94.94,False,1.6,26,Female,7.75,5.6,0.1,Fair,Medium,8.16,6.43,No,No,0,13.45,2,0.8533333333333335
+YouTube,Entertainment,64.94,False,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+Google Docs,Productivity,87.52,True,1.5,49,Other,2.93,0.48,4.54,Poor,High,8.31,6.98,Yes,No,0,7.95,3,1.9575
+Spotify,Entertainment,107.48,False,1.8,63,Female,2.47,3.28,2.87,Good,High,4.08,0.84,Yes,Yes,0,8.620000000000001,3,0.20000000000000007
+WhatsApp,Social,90.65,False,1.5,25,Male,4.86,1.7,0.76,Fair,Medium,6.72,5.26,No,Yes,0,7.32,2,1.6733333333333331
+Google Docs,Productivity,80.46,True,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Google Maps,Utilities,68.88,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Chrome,Utilities,110.96,False,1.8,32,Other,1.8,2.42,3.03,Fair,Low,5.12,9.17,Yes,No,0,7.25,1,1.35
+Chrome,Utilities,71.41,False,1.2,59,Male,11.09,6.96,4.17,Poor,Medium,7.1,1.29,Yes,No,0,22.22,2,0.04666666666666656
+Snapchat,Social,81.9,False,1.4,31,Female,6.95,1.0,3.28,Fair,Low,6.85,4.66,Yes,No,0,11.23,1,2.925
+Evernote,Productivity,69.26,True,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+YouTube,Entertainment,63.64,False,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Weather,Utilities,78.64,False,1.3,22,Other,1.55,2.07,4.21,Poor,High,7.06,6.25,Yes,No,0,7.83,3,1.2475
+Notion,Productivity,67.95,True,1.1,49,Male,7.08,3.21,3.52,Good,Low,8.87,3.33,No,No,0,13.809999999999999,1,2.8299999999999996
+WhatsApp,Social,84.42,False,1.4,26,Male,9.18,4.99,0.78,Excellent,High,5.39,4.62,Yes,No,0,14.95,3,0.09999999999999987
+Twitch,Entertainment,71.17,False,1.2,19,Male,1.65,7.62,3.6,Excellent,High,7.31,4.49,No,Yes,0,12.87,3,-0.07750000000000012
+Chrome,Utilities,115.36,False,1.9,47,Female,2.65,2.22,0.68,Good,Low,4.94,0.85,Yes,Yes,0,5.55,1,1.36
+Notion,Productivity,82.23,True,1.4,53,Male,10.57,7.28,3.45,Fair,Low,5.65,9.81,No,No,0,21.3,1,-0.815
+Weather,Utilities,83.4,False,1.4,65,Other,7.58,7.92,1.62,Fair,Low,5.2,7.24,No,No,0,17.12,1,-1.3599999999999999
+WhatsApp,Social,91.61,False,1.5,34,Female,5.55,5.06,1.68,Good,High,8.88,2.37,Yes,No,0,12.29,3,0.9550000000000003
+Weather,Utilities,113.89,False,1.9,25,Other,4.5,2.76,1.43,Fair,Low,4.5,5.83,Yes,Yes,0,8.69,1,0.8700000000000001
+Slack,Productivity,107.99,True,1.8,23,Female,7.46,0.31,1.19,Fair,High,8.29,1.89,No,Yes,0,8.959999999999999,3,1.9949999999999999
+Evernote,Productivity,71.26,True,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Twitter,Social,63.15,False,1.1,55,Other,3.28,2.9,0.42,Good,High,6.41,1.33,No,No,0,6.6,3,0.8775000000000001
+Google Maps,Utilities,69.29,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Google Docs,Productivity,67.46,True,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Instagram,Social,71.74,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Chrome,Utilities,88.22,False,1.5,26,Female,9.35,0.33,2.64,Good,High,4.43,5.36,No,No,0,12.32,3,1.025
+TikTok,Entertainment,77.49,False,1.3,37,Male,1.94,3.76,2.63,Poor,Low,6.65,5.13,No,Yes,0,8.329999999999998,1,1.4450000000000003
+Snapchat,Social,108.19,False,1.8,41,Male,1.93,1.6,1.54,Fair,Low,5.59,1.91,Yes,Yes,0,5.07,1,1.9949999999999999
+Camera,Utilities,98.61,False,1.6,35,Other,2.88,2.89,0.38,Fair,Low,8.28,9.81,Yes,No,0,6.1499999999999995,1,2.6949999999999994
+Twitter,Social,60.29,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Gmail,Utilities,70.76,False,1.2,29,Other,2.08,4.68,4.14,Poor,Medium,4.36,2.23,Yes,No,0,10.899999999999999,2,-0.10666666666666647
+Google Docs,Productivity,95.2,True,1.6,52,Other,4.21,2.36,1.65,Good,Medium,4.07,2.99,Yes,Yes,0,8.22,2,0.5700000000000002
+Google Docs,Productivity,70.22,True,1.2,28,Male,1.83,3.37,1.42,Poor,Medium,5.87,7.54,No,Yes,0,6.62,2,0.8333333333333334
+Google Maps,Utilities,68.88,False,1.1,51,Male,5.97,4.16,4.99,Poor,Low,5.43,2.61,No,No,0,15.12,1,0.6349999999999998
+Notion,Productivity,215.94,True,3.6,45,Other,9.17,3.61,2.14,Fair,High,5.07,1.87,No,No,1,14.92,3,0.3650000000000001
+Twitter,Social,74.26,False,1.2,59,Female,9.07,4.05,1.86,Excellent,Low,6.16,8.9,No,Yes,0,14.98,1,1.0550000000000002
+Microsoft Teams,Productivity,66.59,True,1.1,39,Female,8.21,3.61,2.14,Good,Medium,7.9,6.11,No,Yes,0,13.96,2,1.4300000000000004
+Twitch,Entertainment,73.4,False,1.2,31,Male,9.46,7.86,3.69,Poor,High,5.85,2.87,No,No,0,21.01,3,-0.5025000000000002
+Netflix,Entertainment,58.67,False,1.0,49,Other,1.74,6.1,4.81,Good,Medium,4.06,2.55,No,Yes,0,12.649999999999999,2,-0.68
+Chrome,Utilities,185.65,False,3.1,54,Male,3.07,6.47,0.82,Excellent,Medium,6.27,7.84,No,Yes,1,10.36,2,-0.06666666666666672

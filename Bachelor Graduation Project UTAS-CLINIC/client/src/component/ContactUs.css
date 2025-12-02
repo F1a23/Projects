@@ -1,0 +1,148 @@
+/* Contact Form */
+.contact-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* توسيط النموذج داخل الصفحة */
+  max-width: 990px; /* تحديد عرض أقصى للنموذج */
+  width: 100%; /* التأكد من أن العرض يتناسب مع حجم الشاشة */
+}
+
+/* Contact Container */
+.contact-container {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5rem; /* تغيير الحجم ليكون متناسقاً */
+  color: #003366;
+}
+
+.header p {
+  font-size: 1.2rem; /* حجم مناسب للفقرة */
+  color: #666;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  color: #003366;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem; /* جعل حجم الخط متناسقاً */
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus {
+  border-color: #003366;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #003366;
+  border-color: #003366;
+  padding: 12px 20px; /* زيادة حجم الأزرار لتكون متناسقة */
+  font-size: 1.2rem; /* حجم مناسب للخط */
+  color: white;
+  border-radius: 6px;
+}
+
+.btn-primary:hover {
+  background-color: #002244;
+}
+
+/* Clinic Info */
+.clinic-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.clinic-info h3 {
+  font-size: 1.6rem;
+  color: #003366;
+}
+
+.clinic-info p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Map Container */
+.map-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.map-container iframe {
+  border-radius: 8px;
+}
+
+/* Contact Us Header Style */
+.header-contant {
+  background-color: #adc0fb77; /* خلفية زرقاء داكنة تعكس الجدية والثقة */
+  color: #1619a7; /* نص أبيض ليتباين مع الخلفية */
+  padding: 60px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* ظل خفيف لإعطاء العمق */
+  max-width: 1000px;
+  margin: 40px auto;
+  transform: translateY(0);
+  transition: transform 0.5s ease;
+}
+
+.header-contant:hover {
+  transform: translateY(-10px); /* تأثير حركة عند التمرير لزيادة الجذب */
+}
+
+.header-contant h1 {
+  font-size: 3rem; /* زيادة حجم العنوان لجذب الانتباه */
+  font-weight: 700;
+  letter-spacing: 2px; /* زيادة تباعد الأحرف لإعطاء تأثير أنيق */
+  margin-bottom: 20px;
+}
+
+.header-contant p {
+  font-size: 1.1rem; /* حجم مناسب للفقرة */
+  color: #080a30; /* لون رمادي فاتح لجعل النص أكثر وضوحًا */
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+  opacity: 0.9; /* تقليل شفافية النص قليلاً لجعله يبدو أنيقًا */
+}
+
+.header-contant a {
+  display: inline-block;
+  background-color: #fff;
+  color: #4e73df;
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-contant a:hover {
+  background-color: #ff6f61;
+  color: #fff;
+}

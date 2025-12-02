@@ -1,0 +1,312 @@
+/* ==================== العنوان الرئيسي للقسم ==================== */
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(to right, #2563eb, #7e22ce, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(to right, #8b5cf6, #3b82f6, #f472b6);
+}
+
+/* ========== حركة دخول للعنوان ========== */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-title {
+  animation: fadeUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+/* ==================== قسم تعريف العيادة ==================== */
+.about-header {
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  padding: 60px 30px;
+  text-align: center;
+  animation: fadeInUp 1s ease-out;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* ========== حركة دخول قسم التعريف ========== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==================== قسم الإحصائيات ==================== */
+.clinic-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 20px;
+  background-color: #f7fafd;
+  border-radius: 12px;
+  box-shadow: inset 0 0 20px rgba(0, 183, 255, 0.05);
+  margin-top: 40px;
+  animation: fadeIn 1.2s ease-in-out;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background: white;
+  border: 2px solid #e0f2fe;
+  border-radius: 16px;
+  padding: 25px 30px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 174, 255, 0.2);
+}
+
+.stat h3 {
+  font-size: 24px;
+  margin: 15px 0 5px;
+  color: #0077b6;
+}
+
+.stat p {
+  font-size: 16px;
+  color: #555;
+}
+
+.icon {
+  color: #00b4d8;
+}
+
+/* ========== حركة دخول الإحصائيات ========== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==================== قسم "What We Offer" - تصميم تايملاين ==================== */
+.timeline-wrapper {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 60px;
+}
+
+.vertical-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 30px;
+  width: 6px;
+  background: linear-gradient(to bottom, #7e22ce, #2563eb, #ec4899);
+  border-radius: 3px;
+}
+
+.card-container {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+}
+
+.circle {
+  position: absolute;
+  left: -45px;
+  top: 20px;
+  width: 35px;
+  height: 35px;
+  background: #2563eb;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+.card-content h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card-content p {
+  color: #444;
+  font-size: 15px;
+}
+
+/* ==================== قسم الفريق ==================== */
+.bodyteam {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(-45deg, #cccfd1, #e5e2e2db, #def3e5, #fefec4a2);
+  background-size: 400% 400%;
+  animation: gradientMove 8s ease infinite;
+}
+
+/* حركة التدرج */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.h-team {
+  font-family: Elephant;
+  color: rgb(0, 4, 128);
+  font-size: 2.0rem;
+}
+
+/* قسم المقدمة الخاصة بالفريق */
+.team-introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+@media (min-width: 768px) {
+  .team-introduction {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.team-introduction-text {
+  max-width: 500px;
+}
+
+.team-introduction-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.team-introduction-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.team-introduction-image img {
+  background-color: #101a4deb;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .team-introduction-image img {
+    margin-top: 0;
+    max-width: 450px;
+  }
+}
+
+/* بطاقات أعضاء الفريق */
+.team-members {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .team-members {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.team-member-box {
+  text-align: center;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #ebf4ddc2;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.team-member-box:hover {
+  transform: translateY(-5px);
+}
+
+.team-member-box img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.team-member-box h3 {
+  font-size: 1.0rem;
+  margin-bottom: 10px;
+}
+
+.team-member-box p {
+  font-size: 0.90rem;
+  color: #666;
+}

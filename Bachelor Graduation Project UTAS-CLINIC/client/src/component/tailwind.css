@@ -1,0 +1,105 @@
+.bodyteam {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #dfe3e4 ;
+}
+
+.h-team {
+    font-family: Elephant;
+    color: rgb(0, 4, 128);
+    font-size: 2.0rem;
+}
+
+.team-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+@media (min-width: 768px) {
+    .team-introduction {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.team-introduction-text {
+    max-width: 500px;
+}
+
+.team-introduction-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.team-introduction-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.team-introduction-image img {
+    background-color: #101a4deb;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .team-introduction-image img {
+        margin-top: 0;
+        max-width: 450px;
+    }
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .team-members {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.team-member-box {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #ebf4ddc2; /* Light blue background color */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.team-member-box:hover {
+    transform: translateY(-5px);
+}
+
+.team-member-box img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.team-member-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.team-member-box p {
+    font-size: 0.90rem;
+    color: #666;
+}
+
+
+

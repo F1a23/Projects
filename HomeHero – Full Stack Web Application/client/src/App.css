@@ -1,0 +1,906 @@
+/*Sidebar */
+
+/* Wrapper for Sidebar and Toggle Button */
+.sidebar-wrapper {
+  position: relative;
+  height: 100vh;
+  display: flex; /* Make the sidebar and content sit side-by-side */
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  overflow: hidden;
+  padding: 1rem 0;
+  transition: width 0.3s ease;
+  width: 90px; /* Collapsed width for icons only */
+  z-index: 100; /* Ensures the sidebar stays on top */
+}
+
+.sidebar.collapsed {
+  width: 60px; /* Width when sidebar is closed */
+}
+
+.sidebar.expanded {
+  width: 200px; /* Expanded width */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+  font-size: 1.2rem;
+}
+
+.sidebar ul li .icon {
+  font-size: 1.5rem;
+}
+
+.sidebar ul li span {
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar.expanded ul li span {
+  opacity: 1;
+}
+
+/* Toggle Button Outside */
+.toggle-button {
+  position: fixed;
+  top: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: left 0.3s ease;
+}
+
+/* Main Content Adjustment to Ensure Sidebar Doesn't Overlap */
+.main-content {
+  margin-left: 60px; /* Ensure there's space for the sidebar when collapsed */
+  padding: 20px; /* Padding to prevent content from sticking to the sides */
+  transition: margin-left 0.3s ease; /* Smooth transition when toggling the sidebar */
+}
+
+.sidebar.expanded + .main-content {
+  margin-left: 200px; /* Adjust space when sidebar is expanded */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  /* Sidebar */
+  .sidebar {
+    width: 50px; /* Smaller collapsed width for mobile */
+  }
+
+  .sidebar.collapsed {
+    width: 50px; /* Width when sidebar is closed for mobile */
+  }
+
+  .sidebar.expanded {
+    width: 150px; /* Smaller expanded width for mobile */
+  }
+
+  /* Toggle button */
+  .toggle-button {
+    left: 10px; /* Adjust toggle button position for mobile */
+  }
+
+  /* Main Content */
+  .main-content {
+    margin-left: 0; /* Remove margin when sidebar is expanded on mobile */
+    padding: 10px; /* Adjust padding for mobile */
+  }
+}
+
+/* End of Sidebar css */
+
+/*Login page css */
+.loginnn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 20px; /* Add padding for smaller screens */
+}
+
+.formlogin-group {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+/* Label font */
+.formlogin-group label {
+  display: block;
+  font-size: 50px;
+  color: #1e1919;
+  margin-bottom: 5px;
+  font-family: "Comic Sans MS";
+}
+
+/* Responsive Box */
+.box {
+  width: 100%; /* Full width by default */
+  max-width: 100%; /* Limit the width */
+  height: auto; /* Adjust height dynamically */
+  padding: 20px; /* Space inside the box */
+  background-color: #ffffff; /* Box background color */
+  border: 1px solid #ddd; /* Light border around the box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
+  text-align: center; /* Center-align content */
+  margin: 20px auto; /* Center the box horizontally */
+}
+
+.styledd-image {
+  display: block;
+  margin: 20px auto; /* Centers the image */
+  max-width: 100%; /* Make image responsive */
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.styledd-image:hover {
+  transform: scale(1.05);
+}
+
+.ph {
+  font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+  font-size: 20px;
+  line-height: 0.4;
+  color: #1e1919;
+  text-align: justify;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.h22 {
+  font-family: "Comic Sans MS";
+  font-size: 24px;
+  font-weight: bolder;
+  color: #1e1919;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.form-groupsn {
+  text-align: left;
+}
+
+/* Label font */
+.form-groupsn label {
+  display: block;
+  font-size: 20px;
+  color: #1e1919;
+  margin-bottom: 8px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+
+/* Input font */
+.form-groupsn input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  color: #1e1919;
+  font-weight: bold;
+}
+
+.loginbutton {
+  text-align: center;
+  width: 100%; /* Full width for smaller screens */
+  max-width: 300px; /* Limit button width */
+  padding: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #4d4646;
+  margin: 20px auto;
+}
+
+.img {
+  background-image: url("./images/backgroungimg.png");
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the background */
+  background-size: cover;
+  height: auto;
+  min-height: 500px; /* Ensure height for small screens */
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .h22 {
+    font-size: 32px;
+  }
+
+  .formlogin-group label {
+    font-size: 24px;
+  }
+
+  .form-groupsn input {
+    font-size: 16px;
+  }
+
+  .loginbutton {
+    font-size: 16px;
+  }
+
+  .box {
+    padding: 15px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .h22 {
+    font-size: 24px;
+  }
+
+  .ph {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .formlogin-group label {
+    font-size: 20px;
+  }
+
+  .form-groupsn input {
+    font-size: 14px;
+  }
+
+  .loginbutton {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .box {
+    padding: 10px;
+  }
+}
+
+/*End of Login page css */
+
+/*Register page css */
+
+.boxregister {
+  width: 90%; /* Full width by default */
+  max-width: 100%; /* Limit the maximum width */
+  height: auto; /* Adjust height dynamically */
+  padding: 20px 10px; /* Adjust padding */
+  background-color: #ffffff; /* Box background color */
+  border: 1px solid #ddd; /* Light border around the box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
+  text-align: center; /* Center-align content */
+  margin: 20px auto; /* Center the box horizontally */
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .boxregister {
+    max-width: 90%; /* Increase width for smaller screens */
+    padding: 15px; /* Reduce padding */
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .boxregister {
+    width: 100%; /* Use full width */
+    padding: 10px; /* Further reduce padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow for small screens */
+  }
+}
+
+/*End of Register page css */
+
+/*Home */
+
+/* Style for each card */
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  height: 50%;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Card body styling */
+.card-body {
+  padding: 5px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Quantity input field */
+.qty_input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Add to cart button styling */
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .qty_input {
+    font-size: 14px;
+  }
+
+  .btn-primary {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .qty_input {
+    font-size: 12px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+  }
+}
+
+/*End of Home css */
+
+/*About Us page */
+/* General styles for .phh */
+.phh {
+  font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1e1919;
+  text-align: justify;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+/* General styles for .h1 */
+.h1 {
+  margin: 10px;
+  text-align: right;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Comic Sans MS";
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* For small devices like tablets and smartphones */
+  .phh {
+    font-size: 20px; /* Smaller font size for mobile */
+    padding: 15px; /* Less padding on small screens */
+    text-align: left; /* Align text to the left for mobile */
+  }
+
+  .h1 {
+    font-size: 18px; /* Smaller font size for mobile */
+    margin: 5px; /* Less margin on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  /* For smaller screens like phones */
+  .phh {
+    font-size: 18px; /* Further reduce font size for very small screens */
+    padding: 10px; /* Reduce padding */
+    text-align: left; /* Align text to the left for readability */
+  }
+
+  .h1 {
+    font-size: 16px; /* Further reduce font size for very small screens */
+    margin: 3px; /* Further reduce margin */
+  }
+}
+/*end*/
+/* contact us */
+.contactusimg {
+  background-color: #333333;
+  width: 60%;
+  height: 350px;
+}
+.boxcontact {
+  width: 100%; /* Full width by default */
+  max-width: 100%; /* Limit the width */
+  height: auto; /* Adjust height dynamically */
+  padding: 20px; /* Space inside the box */
+  background-color: #ffffff; /* Box background color */
+  border: 1px solid #ddd; /* Light border around the box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
+  text-align: center; /* Center-align content */
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.textareainput {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  color: #333;
+  font-weight: bold;
+}
+/*end*/
+/*profile*/
+.profile-box {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  margin-bottom: 30px;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.profile-form {
+  padding: 20px;
+}
+
+.profile-input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.profile-box h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Style for the button */
+.button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-box {
+    padding: 15px;
+  }
+
+  .profile-form {
+    padding: 10px;
+  }
+}
+.pht {
+  font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1e1919;
+  text-align: justify;
+  font-weight: bold;
+  padding: 20px;
+  text-align: left;
+}
+/*user*/
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px auto; /* Small space between tables, center alignment */
+  margin-top: 80px; /* Additional space above each table */
+  margin-left: 200px; /* Margin on the left */
+  margin-right: 15px; /* Margin on the right */
+  font-size: 20px;
+  text-align: justify;
+}
+
+.table thead th {
+  padding: 12px 15px;
+  border-bottom: 2px solid #585555;
+  font-weight: bold;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.table tbody td {
+  padding: 12px 15px;
+  font-size: 20px;
+}
+
+.table tbody td img.userImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.table tbody td button {
+  padding: 8px 12px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.table tbody td button:nth-child(2) {
+  background-color: #28a745;
+}
+/*manage services*/
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  padding: 20px; /* Add padding for smaller screens */
+}
+
+.form-service {
+  text-align: left;
+}
+
+/* Label font */
+.form-service label {
+  display: block;
+  font-size: 20px;
+  color: #1e1919;
+  margin-bottom: 8px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+
+/* Input font */
+.form-service input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  color: #1e1919;
+  font-weight: bold;
+}
+/*Logout*/
+.boxrlogout {
+  width: 60%; /* Full width by default */
+  max-width: 100%; /* Limit the width */
+  height: auto; /* Adjust height dynamically */
+  padding: 20px; /* Space inside the box */
+  background-color: #ffffff; /* Box background color */
+  border: 2px solid #ddd; /* Light border around the box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
+  text-align: center; /* Center-align content */
+  margin-top: 10%;
+  margin-left: 25%;
+}
+/*Contact us*/
+.textareainput {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 40px;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  color: #3e4a73;
+  font-weight: bold;
+}
+.phh {
+  font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+  font-size: 30px;
+  line-height: 0.4;
+  color: #1e1919;
+  text-align: justify;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+/*Manage services*/
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f9f9f9;
+}
+
+.form-wrapper {
+  width: 60%;
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-buttons .ml-3 {
+  margin-left: 10px;
+}
+/*Home*/
+.ph1 {
+  font-size: 19px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  text-align: center;
+}
+.img1 {
+  width: 100%; /* Makes the image responsive */
+  max-width: 300px; /* Sets a maximum width for the image */
+  height: auto; /* Maintains the aspect ratio */
+  margin: 10px auto; /* Centers the image and adds some spacing */
+  display: block; /* Ensures proper alignment */
+  box-shadow: none; /* Removes any shadow */
+  border: none; /* Ensures no border is applied */
+  background: none; /* Removes any background */
+}
+.card1 {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-right: 25%;
+  width: 65%;
+}
+.img2 {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  height: 0%;
+  width: 100%;
+}
+.boxhome {
+  width: 80%; /* Full width by default */
+  height: auto; /* Adjust height dynamically */
+  padding: 20px; /* Space inside the box */
+  background-color: #ffffff; /* Box background color */
+  border: 2px solid #ddd; /* Light border around the box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
+  text-align: center; /* Center-align content */
+  margin-top: 5%;
+  margin-left: 13%;
+  margin-bottom: 20%;
+}
+.h3 {
+  font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+  font-size: 20px;
+  line-height: 1;
+  color: #1e1919;
+  font-weight: bold;
+  padding: 20px;
+  text-align: left;
+}
+
+.pz {
+  font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+  font-size: 25px;
+  line-height: 1.1; /* Adjusted line-height for more spacing between lines */
+  color: #1e1919;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.img1 {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+.img3 {
+  height: 40%;
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+.card-body {
+  padding: 15px;
+}
+
+.date-input,
+.time-input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.styled-image1 {
+  width: 250px; /* Adjust the size as needed */
+  height: 250px; /* Ensure it's a square */
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Ensures the image fits inside the circle */
+  margin: 0 auto; /* Center the image horizontally */
+  display: block; /* Ensures margin auto works for centering */
+  border: none; /* Remove the border */
+}
+.service-card {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ddd; /* Border for the box */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Space inside the box */
+  margin: 10px 0; /* Space between rows */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a polished look */
+  margin-left: 14%;
+}
+
+.img {
+  max-width: 35%; /* Adjust image size */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 16px; /* Space between image and text */
+}
+
+.text {
+  font-size: 34px; /* Text size */
+  color: #333; /* Text color */
+  line-height: 1.5; /* Line spacing for better readability */
+}
+.h1a {
+  margin: 10px;
+  text-align: right;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Comic Sans MS";
+  text-align: center;
+  margin-left: 50%;
+}

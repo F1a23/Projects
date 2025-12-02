@@ -1,0 +1,53 @@
+.order-delivery-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.order-delivery-card {
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  background: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.order-delivery-title {
+  text-align: center;
+  color: #2a4d69;
+  margin-bottom: 25px;
+}
+
+.location-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.location-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.location-info {
+  margin-top: 10px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.icon {
+  margin-right: 8px;
+  color: #2a4d69;
+}

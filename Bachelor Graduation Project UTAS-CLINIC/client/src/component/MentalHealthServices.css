@@ -1,0 +1,235 @@
+/* تخصيص الفئة الخاصة بالصفحة */
+.mental-health-services-container {
+  padding: 30px 15px;
+  background-color: #eef2f4;
+}
+
+/* تخصيص العناوين */
+.mental-health-services-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #007bff; /* اللون الأزرق الصريح */
+}
+
+.mental-health-services-container h2 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.mental-health-services-container h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.mental-health-services-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* ✅ تعديل كرت الخدمة لضبط الأيقونة بالنص */
+.mental-health-services-container .service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mental-health-services-container .service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ أيقونة الخدمة تتوسط الكرت */
+.mental-health-services-container .service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+/* تخصيص الأزرار */
+.mental-health-services-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mental-health-services-container button:hover {
+  background-color: #0056b3;
+}
+
+/* تخصيص الرسالة */
+.mental-health-services-container .request-assistance {
+  background-color: #ffeb3b;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.mental-health-services-container .request-assistance h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.mental-health-services-container .request-assistance p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.mental-health-services-container .request-assistance button {
+  background-color: #d32f2f;
+}
+
+.mental-health-services-container .request-assistance button:hover {
+  background-color: #c62828;
+}
+
+/* تخصيص الصور */
+.mental-health-services-container .images-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.mental-health-services-container .images-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.mental-health-services-container .images-container img:hover {
+  transform: scale(1.1);
+}
+
+/* صناديق وخدمات */
+.mental-health-services-container .service-card,
+button,
+.request-assistance {
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .mental-health-services-container .service-card {
+    margin-bottom: 20px;
+  }
+
+  .mental-health-services-container .images-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* العنوان والفقره في الأعلى */
+.mental-health-services-container .main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #007bff;
+  text-align: center;
+}
+
+.mental-health-services-container .intro-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  color: #444;
+  text-align: center;
+}
+/* تخصيص قسم طلب الدعم */
+.mental-health-services-container .request-assistance {
+  background-color: #fff3cd;
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* عنوان الفقرة */
+.mental-health-services-container .request-assistance h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* الفقرة */
+.mental-health-services-container .request-assistance p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* الزر */
+.mental-health-services-container .support-button {
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: #d32f2f;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.mental-health-services-container .support-button:hover {
+  background-color: #b71c1c;
+}
+.mental-health-services-container .resources-section {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.mental-health-services-container .resources-section h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.mental-health-services-container .resources-section p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.mental-health-services-container .resources-button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.mental-health-services-container .resources-button:hover {
+  background-color: #0056b3;
+}
