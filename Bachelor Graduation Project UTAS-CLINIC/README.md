@@ -1,4 +1,5 @@
- #🏥 UTAS Clinic Management System
+# 🏥 UTAS Clinic Management System
+
 
 A full-stack clinic management system designed for students and staff at UTAS-Salalah.  
 The system streamlines appointment booking, medication requests, prescriptions, and announcements through secure role-based dashboards.
