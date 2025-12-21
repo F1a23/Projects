@@ -1,23 +1,89 @@
-# 📂 Projects Portfolio
+🍽️ Sentiment Analysis of European Restaurant Reviews
 
-This folder contains a collection of projects that I worked on either individually or as part of a team.  
-The projects reflect my journey in software engineering, data science, AI, and various technical areas I explored throughout university studies and personal development.
+Machine Learning & Natural Language Processing (NLP) Project
 
-Each project is organized in its own folder with a dedicated "README.md" that explains the idea, purpose, and tools used.
+📌 Project Overview
 
-This portfolio serves as a showcase of my practical experience, problem-solving abilities, and commitment to learning and building real-world solutions.
+This project focuses on analyzing European restaurant reviews and automatically classifying customer feedback into Positive or Negative sentiments using Machine Learning and NLP techniques.
 
----
+The main goal is to demonstrate how text data can be transformed, modeled, and evaluated to extract meaningful insights from customer opinions.
 
-## 🎯 Purpose of This Folder
-- To document the projects I developed over time  
-- To organize my work in a clear and professional structure  
-- To demonstrate both personal and collaborative project experience  
-- To provide a reference for future employers, team members, or anyone reviewing my work  
+🎯 Objectives
 
----
+Build a sentiment classification system for restaurant reviews
 
-## 👤 Fatima Al-Amri
+Apply Natural Language Processing (NLP) techniques
 
-Software Engineering Student | Data Science & AI Trainee at Code Academy through Makeen Bootcamp
-Passionate about creating useful, accessible, and impactful technology.
+Compare multiple machine learning models
+
+Identify the best-performing model based on evaluation metrics
+
+📂 Dataset
+
+Reviews collected from European restaurants
+
+Text-based customer feedback
+
+Binary sentiment labels: Positive / Negative
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas & NumPy
+
+Scikit-learn
+
+Natural Language Processing (NLP)
+
+TF-IDF Vectorization
+
+Jupyter Notebook
+
+🧠 Models Used
+
+The following machine learning models were implemented and compared:
+
+Naive Bayes
+
+Logistic Regression
+
+Gradient Boosting
+
+To improve performance, model tuning and optimization techniques were applied.
+
+📊 Results
+
+Multiple models were evaluated and compared
+
+Logistic Regression achieved the best performance, reaching an accuracy of up to 97%
+
+Results showed the importance of model selection and proper text preprocessing
+
+🤝 Team Collaboration
+
+This project was completed as a team-based academic project, emphasizing:
+
+Collaboration and teamwork
+
+Idea sharing and experimentation
+
+Joint problem-solving and analysis
+
+🌱 Learning Outcomes
+
+Through this project, we gained hands-on experience in:
+
+Text preprocessing and feature extraction
+
+NLP pipelines and TF-IDF representation
+
+Model comparison and evaluation
+
+Handling real-world text data
+
+👩‍💻 Author
+
+Fatima Al-Amri
+Software Engineering Student
+Data Science & AI Trainee – Makeen Bootcamp (Code Academy)
