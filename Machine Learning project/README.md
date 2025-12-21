@@ -69,11 +69,6 @@ Logistic Regression showed the most **stable and accurate performance** among al
 
 ---
 
-## 🙏 Acknowledgment
-Special thanks to **Ms. Kulsoom Shoukat Ali** for her continuous guidance, support, and valuable feedback throughout this project.
-
----
-
 ## 🛠️ Tools & Technologies
 - Python  
 - Scikit-learn  
