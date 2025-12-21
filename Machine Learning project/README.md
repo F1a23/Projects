@@ -1,89 +1,42 @@
-🍽️ Sentiment Analysis of European Restaurant Reviews
+# 🍽️ Sentiment Analysis of European Restaurant Reviews
+### Machine Learning & NLP Project 🤖📊
 
-Machine Learning & Natural Language Processing (NLP) Project
+---
 
-📌 Project Overview
+## 📌 Project Overview
+This project focuses on **sentiment analysis** of European restaurant reviews using  
+**Machine Learning and Natural Language Processing (NLP)** techniques.
 
-This project focuses on analyzing European restaurant reviews and automatically classifying customer feedback into Positive or Negative sentiments using Machine Learning and NLP techniques.
+The goal is to automatically classify customer reviews into:
+- ✅ **Positive**
+- ❌ **Negative**
 
-The main goal is to demonstrate how text data can be transformed, modeled, and evaluated to extract meaningful insights from customer opinions.
+The project was developed as a **team academic project**, emphasizing collaboration, experimentation, and model comparison.
 
-🎯 Objectives
+---
 
-Build a sentiment classification system for restaurant reviews
+## 🎯 Objectives
+- Analyze large volumes of restaurant reviews efficiently  
+- Apply NLP techniques for text preprocessing and feature extraction  
+- Compare multiple machine learning models  
+- Identify the best-performing model based on evaluation metrics  
 
-Apply Natural Language Processing (NLP) techniques
+---
 
-Compare multiple machine learning models
+## 📊 Dataset
+- **Type:** European restaurant reviews  
+- **Size:** ~1,500+ reviews  
+- **Features:**  
+  - Review text  
+  - Sentiment label (Positive / Negative)
 
-Identify the best-performing model based on evaluation metrics
+---
 
-📂 Dataset
+## 🧠 Models Used
+We experimented with multiple machine learning models to compare performance:
 
-Reviews collected from European restaurants
+- 🔹 **Naive Bayes**  
+- 🔹 **Logistic Regression**  
+- 🔹 **Gradient Boosting**
 
-Text-based customer feedback
-
-Binary sentiment labels: Positive / Negative
-
-🛠️ Tools & Technologies
-
-Python
-
-Pandas & NumPy
-
-Scikit-learn
-
-Natural Language Processing (NLP)
-
-TF-IDF Vectorization
-
-Jupyter Notebook
-
-🧠 Models Used
-
-The following machine learning models were implemented and compared:
-
-Naive Bayes
-
-Logistic Regression
-
-Gradient Boosting
-
-To improve performance, model tuning and optimization techniques were applied.
-
-📊 Results
-
-Multiple models were evaluated and compared
-
-Logistic Regression achieved the best performance, reaching an accuracy of up to 97%
-
-Results showed the importance of model selection and proper text preprocessing
-
-🤝 Team Collaboration
-
-This project was completed as a team-based academic project, emphasizing:
-
-Collaboration and teamwork
-
-Idea sharing and experimentation
-
-Joint problem-solving and analysis
-
-🌱 Learning Outcomes
-
-Through this project, we gained hands-on experience in:
-
-Text preprocessing and feature extraction
-
-NLP pipelines and TF-IDF representation
-
-Model comparison and evaluation
-
-Handling real-world text data
-
-👩‍💻 Author
-
-Fatima Al-Amri
-Software Engineering Student
-Data Science & AI Trainee – Makeen Bootcamp (Code Academy)
+Text data was transforme
