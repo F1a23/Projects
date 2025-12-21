@@ -39,4 +39,56 @@ We experimented with multiple machine learning models to compare performance:
 - 🔹 **Logistic Regression**  
 - 🔹 **Gradient Boosting**
 
-Text data was transforme
+Text data was transformed using **TF-IDF** before model training.
+
+---
+
+## ⚙️ Feature Engineering
+Additional features were created to improve model performance:
+- Review length  
+- Word count  
+- Exclamation count  
+- Positive & negative word counts  
+
+---
+
+## 📈 Model Performance
+After evaluation and optimization:
+
+🏆 **Best Model:** Logistic Regression  
+🎯 **Best Accuracy:** **~97%**
+
+Logistic Regression showed the most **stable and accurate performance** among all tested models.
+
+---
+
+## 🤝 Team Members
+- **Fatima Al-Amri**  
+- **Sahab Al-Amri**  
+- **Ashgan Al-Shamali**
+
+---
+
+## 🙏 Acknowledgment
+Special thanks to **Ms. Kulsoom Shoukat Ali** for her continuous guidance, support, and valuable feedback throughout this project.
+
+---
+
+## 🛠️ Tools & Technologies
+- Python  
+- Scikit-learn  
+- Pandas & NumPy  
+- NLP (TF-IDF)  
+- Matplotlib / Seaborn  
+
+---
+
+## ✨ Key Takeaways
+- Importance of preprocessing text data  
+- Handling class imbalance  
+- Comparing and tuning ML models  
+- Power of teamwork in achieving strong results  
+
+---
+
+📌 *This project reflects our practical experience in Machine Learning and NLP and our ability to build data-driven solutions.*
