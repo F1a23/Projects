@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fracture Detection AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>
+        <div class="brandTitle">Fracture Detection AI</div>
+        <div class="brandSub">Deep Learning • X-ray Analysis • UI</div>
+      </div>
+    </div>
+
+    <div class="topActions">
+      <button class="chip chipBtn" id="themeBtn" type="button" aria-label="Toggle theme">
+        <span class="chipIcon" id="themeIcon">🌙</span>
+        <span id="themeText">Night</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- HERO (BIG BOX) -->
+    <section class="hero">
+      <div class="heroCard">
+        <div class="heroLeft">
+          <div class="pillRow">
+            <span class="pill">Medical Imaging</span>
+          </div>
+
+          <h1 class="heroTitle">Detect bone fractures from X-ray images</h1>
+          <p class="heroText">
+            Upload an X-ray and enter patient details.
+            The AI model predicts <b>Fracture</b> or <b>No Fracture</b>.
+            If fracture is found, it will <b>mark the fracture region</b> on the image.
+          </p>
+
+          <div class="heroButtons">
+            <button class="btn btnPrimary" id="btnStart">Start Analysis</button>
+          </div>
+
+          <div class="bigStats">
+            <div class="bigStat">
+              <div class="bigNum">1</div>
+              <div class="bigLbl">Enter Info</div>
+            </div>
+            <div class="bigStat">
+              <div class="bigNum">2</div>
+              <div class="bigLbl">Upload X-ray</div>
+            </div>
+            <div class="bigStat">
+              <div class="bigNum">3</div>
+              <div class="bigLbl">Get Result</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Illustration (inline SVG) -->
+        <div class="heroRight">
+          <div class="heroArt">
+            <svg viewBox="0 0 520 420" aria-hidden="true">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="var(--a1)"/>
+                  <stop offset="1" stop-color="var(--a2)"/>
+                </linearGradient>
+                <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+                  <stop offset="0" stop-color="rgba(255,255,255,.10)"/>
+                  <stop offset="1" stop-color="rgba(255,255,255,.03)"/>
+                </linearGradient>
+                <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="12"/>
+                </filter>
+              </defs>
+
+              <!-- glows -->
+              <circle cx="120" cy="120" r="85" fill="url(#g1)" opacity=".22" filter="url(#blur)"/>
+              <circle cx="420" cy="210" r="95" fill="url(#g1)" opacity=".18" filter="url(#blur)"/>
+
+              <!-- main device -->
+              <rect x="70" y="55" width="380" height="290" rx="26" fill="url(#g2)" stroke="rgba(255,255,255,.10)"/>
+              <rect x="92" y="82" width="336" height="40" rx="14" fill="rgba(255,255,255,.06)"/>
+              <rect x="92" y="138" width="336" height="40" rx="14" fill="rgba(255,255,255,.06)"/>
+              <rect x="92" y="196" width="200" height="40" rx="14" fill="rgba(255,255,255,.06)"/>
+              <rect x="306" y="196" width="122" height="40" rx="14" fill="rgba(255,255,255,.06)"/>
+
+              <!-- progress -->
+              <rect x="92" y="260" width="336" height="18" rx="99" fill="rgba(0,0,0,.18)" stroke="rgba(255,255,255,.08)"/>
+              <rect x="92" y="260" width="210" height="18" rx="99" fill="url(#g1)" opacity=".85"/>
+
+              <!-- xray card -->
+              <rect x="150" y="305" width="220" height="80" rx="20" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.10)"/>
+              <path d="M215 328c18-18 34-18 52 0s34 18 52 0" fill="none" stroke="url(#g1)" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+              <circle cx="185" cy="346" r="8" fill="url(#g1)" opacity=".9"/>
+            </svg>
+
+            <div class="floatingTag ft1">X-Ray</div>
+            <div class="floatingTag ft2">AI Model</div>
+            <div class="floatingTag ft3">Result</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+      <div class="sectionHead">
+        <h2 class="h2">Why this website is useful?</h2>
+        <p class="sub">
+          A clean and simple interface that helps the user upload an X-ray and get a clear fracture prediction.
+        </p>
+      </div>
+
+      <div class="featureGrid featureGridBig">
+        <div class="card featureCard">
+          <div class="featureTop">
+            <div class="featureIcon">🧾</div>
+            <div>
+              <h3 class="h3">Easy Patient Information</h3>
+              <p class="muted">
+                The form is simple: Full Name, Patient ID, Age, and Scan Type.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card featureCard">
+          <div class="featureTop">
+            <div class="featureIcon">🩻</div>
+            <div>
+              <h3 class="h3">X-ray Upload + Preview</h3>
+              <p class="muted">
+                Upload your X-ray image and preview it before submitting.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card featureCard">
+          <div class="featureTop">
+            <div class="featureIcon">⏳</div>
+            <div>
+              <h3 class="h3">Clear Analyzing Status</h3>
+              <p class="muted">
+                Shows “Analyzing...” with a progress bar so the user knows the system is working.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card featureCard">
+          <div class="featureTop">
+            <div class="featureIcon">✅</div>
+            <div>
+              <h3 class="h3">Final Result + Details</h3>
+              <p class="muted">
+                Displays the prediction (Fracture / No Fracture) and the patient information in one screen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FORM SCREEN -->
+    <section class="screen hidden" id="screenForm">
+      <div class="formWrap">
+        <div class="formHeader">
+          <div>
+            <h2 class="h2">Start analysis</h2>
+            <p class="sub">Fill the details and upload an X-ray image.</p>
+          </div>
+          <div class="formHeaderBtns">
+            <button class="btn btnGhost" id="btnBack">Back</button>
+            <button class="btn btnSecondary" id="btnReset">Reset</button>
+          </div>
+        </div>
+
+        <div class="formGrid2">
+          <!-- Form Card -->
+          <div class="card bigCard">
+            <div class="cardTop">
+              <div class="cardTitle">Patient Information</div>
+              <span class="pill pillGhost">Step 1</span>
+            </div>
+
+            <form id="form" class="form">
+              <div class="inputsGrid">
+                <div class="field">
+                  <label>Full Name</label>
+                  <input class="input" id="name" type="text"  required />
+                </div>
+
+                <div class="field">
+                  <label>Patient ID</label>
+                  <input class="input" id="pid" type="text"  required />
+                </div>
+
+                <div class="field">
+                  <label>Age</label>
+                  <input class="input" id="age" type="number" min="1" max="120"  required />
+                </div>
+
+                <div class="field">
+                  <label>Scan Type</label>
+                  <select class="input" id="scanType">
+                    <option value="X-Ray">X-Ray</option>
+                    <option value="CT">CT</option>
+                    <option value="MRI">MRI</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="uploadGrid">
+                <div class="uploadBox">
+                  <div class="uploadIcon">🩻</div>
+                  <div>
+                    <div class="uploadTitle">Upload X-ray Image</div>
+                    <div class="muted">Click to choose (PNG/JPG/WebP)</div>
+                  </div>
+                  <input id="xray" type="file" accept="image/*" required />
+                </div>
+
+                <div class="previewBox">
+                  <div class="previewHint" id="previewHint">Image preview will appear here</div>
+                  <img id="previewImg" alt="Preview"/>
+                </div>
+              </div>
+
+              <div class="actionsRow">
+                <button class="btn btnPrimary btnBig" type="submit">Submit & Analyze</button>
+              </div>
+
+              <div class="note">
+                Connected mode: results are generated by Flask + YOLO model.
+              </div>
+            </form>
+          </div>
+
+          <!-- Side Summary -->
+          <div class="card bigCard">
+            <div class="cardTop">
+              <div class="cardTitle">Summary</div>
+              <span class="pill pillGhost">Live</span>
+            </div>
+
+            <div class="summaryBox">
+              <div class="kv"><span class="k">Name</span><span class="v" id="sName">—</span></div>
+              <div class="kv"><span class="k">ID</span><span class="v" id="sId">—</span></div>
+              <div class="kv"><span class="k">Age</span><span class="v" id="sAge">—</span></div>
+              <div class="kv"><span class="k">Scan</span><span class="v" id="sScan">—</span></div>
+
+              <div class="divider"></div>
+
+              <div class="badge warn" id="miniStatus">
+                <span class="dot warn"></span>
+                <span>Waiting for submission</span>
+              </div>
+
+              <div class="helpCard">
+                Tip: after submission you will see the annotated X-ray with bounding boxes.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULT SCREEN -->
+    <section class="screen hidden" id="screenResult">
+      <div class="resultWrap">
+        <div class="resultHeader">
+          <div>
+            <h2 class="h2">Analysis Result</h2>
+            <p class="sub" id="resultSub">Completed</p>
+          </div>
+          <div class="resultBtns">
+            <button class="btn btnSecondary" id="btnNew">New Analysis</button>
+            <button class="btn btnGhost" id="btnHome">Home</button>
+          </div>
+        </div>
+
+        <div class="resultGrid">
+          <div class="card bigCard">
+            <div class="cardTop">
+              <div class="cardTitle">Prediction</div>
+              <span class="pill pillGhost" id="runtime">Done</span>
+            </div>
+
+            <div class="bigBadge warn" id="finalBadge">
+              <span class="dot warn"></span>
+              <span id="finalLabel">—</span>
+            </div>
+
+            <div class="confidenceRow">
+              <span class="pill pillGhost">Confidence</span>
+              <span class="muted" id="finalConf">—</span>
+            </div>
+          </div>
+
+          <div class="card bigCard">
+            <div class="cardTop">
+              <div class="cardTitle">Patient Details</div>
+              <span class="pill pillGhost">Info</span>
+            </div>
+
+            <div class="patientGrid">
+              <div class="pBox"><div class="k">Full Name</div><div class="v" id="oName">—</div></div>
+              <div class="pBox"><div class="k">Patient ID</div><div class="v" id="oId">—</div></div>
+              <div class="pBox"><div class="k">Age</div><div class="v" id="oAge">—</div></div>
+              <div class="pBox"><div class="k">Scan Type</div><div class="v" id="oScan">—</div></div>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- ✅ NEW: Annotated image box -->
+            <div class="helpCard" style="margin-top:12px;">
+              <div style="font-weight:700; margin-bottom:8px;">Annotated X-ray (Bounding Boxes)</div>
+              <div id="imgStatus" class="muted" style="margin-bottom:10px;">—</div>
+              <img id="annotatedImg" alt="Annotated result" style="width:100%; border-radius:14px; display:none;" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Loading Overlay -->
+  <div class="overlay hidden" id="overlay">
+    <div class="overlayCard">
+      <div class="spinner"></div>
+      <div class="overlayTitle">Analyzing X-ray...</div>
+      <div class="overlayText">Please wait while the model processes the image.</div>
+      <div class="progress"><div class="bar" id="bar"></div></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footerInner">
+      © <span id="year"></span> Fatima Al-Amri | Software Engineer | AI & Data Science
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    // ===== Theme Toggle (light/dark) =====
+    const themeBtn = document.getElementById("themeBtn");
+    const themeText = document.getElementById("themeText");
+    const themeIcon = document.getElementById("themeIcon");
+
+    function setTheme(mode){
+      document.documentElement.setAttribute("data-theme", mode);
+      localStorage.setItem("theme", mode);
+      if(mode === "light"){
+        themeText.textContent = "Day";
+        themeIcon.textContent = "☀️";
+      }else{
+        themeText.textContent = "Night";
+        themeIcon.textContent = "🌙";
+      }
+    }
+
+    const saved = localStorage.getItem("theme");
+    if(saved){
+      setTheme(saved);
+    }else{
+      const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+      setTheme(prefersLight ? "light" : "dark");
+    }
+
+    themeBtn.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme") || "dark";
+      setTheme(current === "dark" ? "light" : "dark");
+    });
+
+    // ===== Screens =====
+    const screenForm = document.getElementById("screenForm");
+    const screenResult = document.getElementById("screenResult");
+
+    const btnStart = document.getElementById("btnStart");
+    const btnBack = document.getElementById("btnBack");
+    const btnReset = document.getElementById("btnReset");
+    const btnNew = document.getElementById("btnNew");
+    const btnHome = document.getElementById("btnHome");
+
+    function show(el){ el.classList.remove("hidden"); }
+    function hide(el){ el.classList.add("hidden"); }
+
+    btnStart.addEventListener("click", () => {
+      show(screenForm);
+      screenForm.scrollIntoView({ behavior: "smooth" });
+    });
+
+    btnBack.addEventListener("click", () => {
+      hide(screenForm);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    btnHome.addEventListener("click", () => {
+      hide(screenResult);
+      hide(screenForm);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    // ===== Form Logic =====
+    const form = document.getElementById("form");
+    const nameEl = document.getElementById("name");
+    const pidEl = document.getElementById("pid");
+    const ageEl = document.getElementById("age");
+    const scanEl = document.getElementById("scanType");
+    const xrayEl = document.getElementById("xray");
+
+    const previewImg = document.getElementById("previewImg");
+    const previewHint = document.getElementById("previewHint");
+
+    const sName = document.getElementById("sName");
+    const sId = document.getElementById("sId");
+    const sAge = document.getElementById("sAge");
+    const sScan = document.getElementById("sScan");
+    const miniStatus = document.getElementById("miniStatus");
+
+    const overlay = document.getElementById("overlay");
+    const bar = document.getElementById("bar");
+
+    const runtime = document.getElementById("runtime");
+    const finalBadge = document.getElementById("finalBadge");
+    const finalLabel = document.getElementById("finalLabel");
+    const finalConf = document.getElementById("finalConf");
+
+    const oName = document.getElementById("oName");
+    const oId = document.getElementById("oId");
+    const oAge = document.getElementById("oAge");
+    const oScan = document.getElementById("oScan");
+    const resultSub = document.getElementById("resultSub");
+
+    // ✅ NEW result image elements
+    const annotatedImg = document.getElementById("annotatedImg");
+    const imgStatus = document.getElementById("imgStatus");
+
+    function updateSummary(){
+      sName.textContent = nameEl.value.trim() || "—";
+      sId.textContent = pidEl.value.trim() || "—";
+      sAge.textContent = ageEl.value.trim() || "—";
+      sScan.textContent = scanEl.value || "—";
+    }
+    [nameEl, pidEl, ageEl].forEach(x => x.addEventListener("input", updateSummary));
+    scanEl.addEventListener("change", updateSummary);
+
+    function setFinal(type, text){
+      finalBadge.classList.remove("good","bad","warn");
+      finalBadge.classList.add(type);
+      finalLabel.textContent = text;
+
+      const dot = finalBadge.querySelector(".dot");
+      dot.classList.remove("good","bad","warn");
+      dot.classList.add(type);
+    }
+
+    xrayEl.addEventListener("change", () => {
+      const file = xrayEl.files?.[0];
+      if(!file) return;
+
+      const ok = ["image/png","image/jpeg","image/jpg","image/webp"];
+      if(!ok.includes(file.type)){
+        alert("Please upload a valid image (PNG/JPG/WebP).");
+        xrayEl.value = "";
+        previewImg.style.display = "none";
+        previewHint.style.display = "block";
+        return;
+      }
+
+      const url = URL.createObjectURL(file);
+      previewImg.src = url;
+      previewImg.style.display = "block";
+      previewHint.style.display = "none";
+    });
+
+    btnReset.addEventListener("click", () => {
+      form.reset();
+      previewImg.style.display = "none";
+      previewHint.style.display = "block";
+      updateSummary();
+
+      miniStatus.className = "badge warn";
+      miniStatus.innerHTML = `<span class="dot warn"></span><span>Waiting for submission</span>`;
+
+      // reset result image
+      annotatedImg.style.display = "none";
+      annotatedImg.src = "";
+      imgStatus.textContent = "—";
+    });
+
+    // ✅ MAIN: submit + call Flask /predict
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const name = nameEl.value.trim();
+      const pid = pidEl.value.trim();
+      const age = ageEl.value.trim();
+      const scan = scanEl.value;
+      const file = xrayEl.files?.[0];
+
+      if(!name || !pid || !age || !file){
+        alert("Please fill all fields and upload an X-ray image.");
+        return;
+      }
+
+      miniStatus.className = "badge warn";
+      miniStatus.innerHTML = `<span class="dot warn"></span><span>Submitted • Analyzing...</span>`;
+
+      overlay.classList.remove("hidden");
+      bar.style.width = "0%";
+      let p = 0;
+      const timer = setInterval(() => {
+        p += 10;
+        bar.style.width = Math.min(p, 90) + "%";
+      }, 120);
+
+      try {
+        const fd = new FormData();
+        // IMPORTANT: must match Flask key "xray"
+        fd.append("xray", file);
+        fd.append("name", name);
+        fd.append("pid", pid);
+        fd.append("age", age);
+        fd.append("scanType", scan);
+
+        const res = await fetch("http://127.0.0.1:5000/predict", {
+          method: "POST",
+          body: fd
+        });
+
+        const data = await res.json();
+
+        clearInterval(timer);
+        bar.style.width = "100%";
+
+        if(!res.ok){
+          overlay.classList.add("hidden");
+          alert(data.error || "Server error");
+          return;
+        }
+
+        // Fill patient info
+        oName.textContent = name;
+        oId.textContent = pid;
+        oAge.textContent = age;
+        oScan.textContent = scan;
+
+        runtime.textContent = "Completed";
+        resultSub.textContent = "Analysis finished.";
+        finalConf.textContent = (data.confidence != null) ? data.confidence.toFixed(3) : "—";
+
+        // Result label
+        if(data.result && data.result.toLowerCase().includes("fracture")){
+          setFinal("bad", data.result);
+        }else{
+          setFinal("good", data.result || "No Fracture");
+        }
+
+        // Show annotated image
+        if(data.annotated_image_url){
+          const url = "http://127.0.0.1:5000" + data.annotated_image_url + "?t=" + Date.now();
+          annotatedImg.src = url;
+          annotatedImg.style.display = "block";
+          imgStatus.textContent = "Bounding boxes generated by the model.";
+        }else{
+          annotatedImg.style.display = "none";
+          annotatedImg.src = "";
+          imgStatus.textContent = "No annotated image returned.";
+        }
+
+        setTimeout(() => {
+          overlay.classList.add("hidden");
+          show(screenResult);
+          screenResult.scrollIntoView({ behavior: "smooth" });
+        }, 250);
+
+      } catch (err) {
+        clearInterval(timer);
+        overlay.classList.add("hidden");
+        alert("Cannot connect to Flask server. Make sure it is running on http://127.0.0.1:5000");
+        console.error(err);
+      }
+    });
+
+    btnNew.addEventListener("click", () => {
+      btnReset.click();
+      screenForm.scrollIntoView({ behavior: "smooth" });
+      hide(screenResult);
+      show(screenForm);
+    });
+
+    // Init
+    updateSummary();
+  </script>
+</body>
+</html>
