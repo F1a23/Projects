@@ -16,6 +16,8 @@ The system generates business insights such as top-selling items and customer tr
 - CSV ingestion  
 - Structured MySQL tables  
 - Business reporting  
+ 
+## 👤 Fatima Al-Amri
 
-## 👤 Author  
-AAA
+Software Engineering | Data Science & AI Trainee at Code Academy through Makeen Bootcamp
+Passionate about creating useful, accessible, and impactful technology.
