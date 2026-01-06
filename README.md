@@ -19,5 +19,5 @@ This portfolio serves as a showcase of my practical experience, problem-solving 
 
 ## 👤 Fatima Al-Amri
 
-Software Engineering Student | Data Science & AI Trainee at Code Academy through Makeen Bootcamp
+Software Engineering | Data Science & AI Trainee at Code Academy through Makeen Bootcamp
 Passionate about creating useful, accessible, and impactful technology.
